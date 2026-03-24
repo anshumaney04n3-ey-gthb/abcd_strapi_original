@@ -14,6 +14,7 @@ git config --global user.name "anshuman-ranjan-ABCD-EY" && git config --global u
 git checkout qa && git pull origin qa
 
 -----------------------------------------------------------------------------------------------
+docker-compose up -d
 docker ps -a
 docker stop abc_dost_mysql abc_dost_python abc_dost_redis && docker rm abc_dost_mysql abc_dost_python abc_dost_redis && docker-compose up -d
 
@@ -156,3 +157,4 @@ ollama launch opencode --model minimax-m2.7:cloud
 opencode models --refresh
 opencode upgrade
 curl -fsSL https://opencode.ai/install | bash
+npm i -g opencode-ai
