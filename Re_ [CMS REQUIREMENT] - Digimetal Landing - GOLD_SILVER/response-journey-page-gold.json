@@ -1,0 +1,330 @@
+{
+    "data": [
+        {
+            "id": 6,
+            "documentId": "vkgdjjn74iaib9rerhy9qcp5",
+            "subProduct": "gold",
+            "createdAt": "2026-02-15T05:40:35.571Z",
+            "updatedAt": "2026-02-15T05:40:35.571Z",
+            "publishedAt": "2026-02-15T05:40:35.579Z",
+            "buy": {
+                "id": 6,
+                "thankYou": {
+                    "id": 6,
+                    "title": "Transaction Success",
+                    "submitButtonText": "Send Invoice",
+                    "secondaryLinkText": "View Transaction Details",
+                    "helpAriaLabel": "Get help",
+                    "heading": "Congratulations!",
+                    "messagePrefix": "You just bought",
+                    "messageSuffix": "of 24K Gold"
+                },
+                "paymentFailure": {
+                    "id": 6,
+                    "title": "Payment Failed",
+                    "submitButtonText": "Retry Payment",
+                    "secondaryLinkText": "Try different payment method",
+                    "helpAriaLabel": "Get help with payment",
+                    "heading": "Payment Failed",
+                    "description": "We couldn't process your payment. Please try again."
+                },
+                "panVerification": {
+                    "id": 6,
+                    "title": "PAN Verification",
+                    "submitButtonText": "Verify & Proceed",
+                    "secondaryLinkText": "Go back",
+                    "helpAriaLabel": "Get help with PAN verification",
+                    "panFieldLabel": "PAN Number",
+                    "panFieldPlaceholder": "e.g: ABCDE1234Z",
+                    "nameFieldLabel": "Name as per PAN",
+                    "nameFieldPlaceholder": "Enter name as per PAN",
+                    "dobFieldLabel": "Date of Birth",
+                    "dobFieldPlaceholder": "DD/MM/YYYY",
+                    "noteText": "Your PAN details are required for tax compliance",
+                    "termsPreText": "By proceeding, you agree to our",
+                    "termsLinkText": "Terms & Conditions",
+                    "termsLinkHref": "https://www.adityabirlacapital.com/abc-digital/terms-conditions"
+                },
+                "nameConfirmation": {
+                    "id": 6,
+                    "title": "Name Confirmation",
+                    "submitButtonText": "Confirm & Proceed",
+                    "secondaryLinkText": "Go back",
+                    "helpAriaLabel": "Get help with name confirmation",
+                    "nameFieldLabel": "Name as per PAN",
+                    "instructionText": "Please confirm your name matches the PAN records"
+                },
+                "transactionSummary": {
+                    "id": 6,
+                    "title": "Order Summary",
+                    "submitButtonText": "Proceed to Pay",
+                    "secondaryLinkText": "Modify details",
+                    "helpAriaLabel": "Get help with order summary",
+                    "summaryTitle": "Summary of your one-time investment",
+                    "totalLabel": "Total payable amount",
+                    "gstLabel": "GST (3%)",
+                    "goldAmountLabel": "Gold Amount",
+                    "termsPreText": "By proceeding, you agree to our",
+                    "termsLinkText": "Terms & Conditions",
+                    "termsLinkHref": "https://www.adityabirlacapital.com/abc-digital/terms-conditions"
+                },
+                "collectTransactionDetails": {
+                    "id": 6,
+                    "title": "Buy Gold",
+                    "submitButtonText": "Proceed to pay",
+                    "secondaryLinkText": "How did you learn about us?",
+                    "helpAriaLabel": "Get help with buying gold",
+                    "inputSectionTitle": "How much gold do you want to buy",
+                    "infoBannerText": "A 72 hour waiting period applies before newly purchased Gold can be sold",
+                    "purityBadgeText": "24K 999.9 Pure Gold",
+                    "goldPurity": "24K",
+                    "refreshTimeSeconds": 290,
+                    "minAmount": 10,
+                    "maxAmount": 500000,
+                    "minWeight": 0,
+                    "maxWeight": 50,
+                    "amountChips": {
+                        "id": 6,
+                        "enabled": true,
+                        "content": [
+                            {
+                                "order": 1,
+                                "id": 26,
+                                "value": "2000"
+                            },
+                            {
+                                "order": 2,
+                                "id": 27,
+                                "value": "5000"
+                            },
+                            {
+                                "order": 3,
+                                "id": 28,
+                                "value": "10000"
+                            },
+                            {
+                                "order": 4,
+                                "id": 29,
+                                "value": "15000"
+                            },
+                            {
+                                "order": 5,
+                                "id": 30,
+                                "value": "50000"
+                            }
+                        ]
+                    },
+                    "weightChips": {
+                        "id": 6,
+                        "enabled": true,
+                        "content": [
+                            {
+                                "order": 1,
+                                "id": 26,
+                                "value": "0.5"
+                            },
+                            {
+                                "order": 2,
+                                "id": 27,
+                                "value": "1"
+                            },
+                            {
+                                "order": 3,
+                                "id": 28,
+                                "value": "2"
+                            },
+                            {
+                                "order": 4,
+                                "id": 29,
+                                "value": "5"
+                            },
+                            {
+                                "order": 5,
+                                "id": 30,
+                                "value": "10"
+                            }
+                        ]
+                    }
+                }
+            },
+            "assets": {
+                "id": 6,
+                "successIllustrationPath": "/assets/transaction-sidebar/success-illustration-gold.png",
+                "failureIllustrationPath": "/assets/transaction-sidebar/failure-illustration.png",
+                "promoBannerLogoPath": "/assets/transaction-promo-banner/abcd-logo.png",
+                "promoBannerQrCodePath": "/assets/transaction-promo-banner/qr-code.png",
+                "promoBannerLogo": null,
+                "promoBannerQrCode": null,
+                "failureIllustration": null,
+                "successIllustration": null
+            }
+        },
+        {
+            "id": 8,
+            "documentId": "i1fk2ug9wli3j90c8y7n18sb",
+            "subProduct": "silver",
+            "createdAt": "2026-02-15T05:40:35.655Z",
+            "updatedAt": "2026-02-15T05:40:35.655Z",
+            "publishedAt": "2026-02-15T05:40:35.662Z",
+            "buy": {
+                "id": 8,
+                "thankYou": {
+                    "id": 8,
+                    "title": "Transaction Success",
+                    "submitButtonText": "Send Invoice",
+                    "secondaryLinkText": "View Transaction Details",
+                    "helpAriaLabel": "Get help",
+                    "heading": "Congratulations!",
+                    "messagePrefix": "You just bought",
+                    "messageSuffix": "of 999.9 Pure Silver"
+                },
+                "paymentFailure": {
+                    "id": 8,
+                    "title": "Payment Failed",
+                    "submitButtonText": "Retry Payment",
+                    "secondaryLinkText": "Try different payment method",
+                    "helpAriaLabel": "Get help with payment",
+                    "heading": "Payment Failed",
+                    "description": "We couldn't process your payment. Please try again."
+                },
+                "panVerification": {
+                    "id": 8,
+                    "title": "PAN Verification",
+                    "submitButtonText": "Verify & Proceed",
+                    "secondaryLinkText": "Go back",
+                    "helpAriaLabel": "Get help with PAN verification",
+                    "panFieldLabel": "PAN Number",
+                    "panFieldPlaceholder": "e.g: ABCDE1234Z",
+                    "nameFieldLabel": "Name as per PAN",
+                    "nameFieldPlaceholder": "Enter name as per PAN",
+                    "dobFieldLabel": "Date of Birth",
+                    "dobFieldPlaceholder": "DD/MM/YYYY",
+                    "noteText": "Your PAN details are required for tax compliance",
+                    "termsPreText": "By proceeding, you agree to our",
+                    "termsLinkText": "Terms & Conditions",
+                    "termsLinkHref": "https://www.adityabirlacapital.com/abc-digital/terms-conditions"
+                },
+                "nameConfirmation": {
+                    "id": 8,
+                    "title": "Name Confirmation",
+                    "submitButtonText": "Confirm & Proceed",
+                    "secondaryLinkText": "Go back",
+                    "helpAriaLabel": "Get help with name confirmation",
+                    "nameFieldLabel": "Name as per PAN",
+                    "instructionText": "Please confirm your name matches the PAN records"
+                },
+                "transactionSummary": {
+                    "id": 8,
+                    "title": "Order Summary",
+                    "submitButtonText": "Proceed to Pay",
+                    "secondaryLinkText": "Modify details",
+                    "helpAriaLabel": "Get help with order summary",
+                    "summaryTitle": "Summary of your one-time investment",
+                    "totalLabel": "Total payable amount",
+                    "gstLabel": "GST (3%)",
+                    "goldAmountLabel": "Silver Amount",
+                    "termsPreText": "By proceeding, you agree to our",
+                    "termsLinkText": "Terms & Conditions",
+                    "termsLinkHref": "https://www.adityabirlacapital.com/abc-digital/terms-conditions"
+                },
+                "collectTransactionDetails": {
+                    "id": 8,
+                    "title": "Buy Silver",
+                    "submitButtonText": "Proceed to pay",
+                    "secondaryLinkText": "How did you learn about us?",
+                    "helpAriaLabel": "Get help with buying silver",
+                    "inputSectionTitle": "How much silver do you want to buy",
+                    "infoBannerText": "A 72 hour waiting period applies before newly purchased Silver can be sold",
+                    "purityBadgeText": "999.9 Pure Silver",
+                    "goldPurity": "999",
+                    "refreshTimeSeconds": 290,
+                    "minAmount": 10,
+                    "maxAmount": 500000,
+                    "minWeight": 1,
+                    "maxWeight": 1000,
+                    "amountChips": {
+                        "id": 8,
+                        "enabled": true,
+                        "content": [
+                            {
+                                "order": 1,
+                                "id": 36,
+                                "value": "2000"
+                            },
+                            {
+                                "order": 2,
+                                "id": 37,
+                                "value": "5000"
+                            },
+                            {
+                                "order": 3,
+                                "id": 38,
+                                "value": "10000"
+                            },
+                            {
+                                "order": 4,
+                                "id": 39,
+                                "value": "15000"
+                            },
+                            {
+                                "order": 5,
+                                "id": 40,
+                                "value": "50000"
+                            }
+                        ]
+                    },
+                    "weightChips": {
+                        "id": 8,
+                        "enabled": true,
+                        "content": [
+                            {
+                                "order": 1,
+                                "id": 36,
+                                "value": "10"
+                            },
+                            {
+                                "order": 2,
+                                "id": 37,
+                                "value": "50"
+                            },
+                            {
+                                "order": 3,
+                                "id": 38,
+                                "value": "100"
+                            },
+                            {
+                                "order": 4,
+                                "id": 39,
+                                "value": "250"
+                            },
+                            {
+                                "order": 5,
+                                "id": 40,
+                                "value": "500"
+                            }
+                        ]
+                    }
+                }
+            },
+            "assets": {
+                "id": 8,
+                "successIllustrationPath": "/assets/transaction-sidebar/success-illustration-silver.png",
+                "failureIllustrationPath": "/assets/transaction-sidebar/failure-illustration.png",
+                "promoBannerLogoPath": "/assets/transaction-promo-banner/abcd-logo.png",
+                "promoBannerQrCodePath": "/assets/transaction-promo-banner/qr-code.png",
+                "promoBannerLogo": null,
+                "promoBannerQrCode": null,
+                "failureIllustration": null,
+                "successIllustration": null
+            }
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "page": 1,
+            "pageSize": 25,
+            "pageCount": 1,
+            "total": 2
+        }
+    }
+}

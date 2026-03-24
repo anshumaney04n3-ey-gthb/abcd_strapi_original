@@ -1,0 +1,730 @@
+{
+    "data": [
+        {
+            "id": 10,
+            "documentId": "fpa37us0evyuq7a7blqf9zxv",
+            "subProduct": "gold",
+            "sectionTitleComparison": "Why Choose Digital Gold",
+            "sectionSubtitleVideos": "Investing in gold has never been simpler",
+            "sectionTitleReferral": "Help friends start their gold journey",
+            "livePriceDisclaimer": "Live gold prices",
+            "footerReferenceHeading": "Powered by",
+            "footerReferenceName": "ABCD",
+            "footerReferenceCertification": "Aditya Birla\nCapital Digital Ltd.",
+            "createdAt": "2026-02-15T10:26:08.195Z",
+            "updatedAt": "2026-02-15T10:26:08.195Z",
+            "publishedAt": "2026-02-15T10:26:08.212Z",
+            "heroImagePath": "/assets/dashboard/hero-gold-bars-new.png",
+            "patternImagePath": "/assets/dashboard/floral-pattern-tile.png",
+            "maskImagePath": "/assets/dashboard/hero-cloud-mask.svg",
+            "transactionsEmptyImagePath": "/assets/transactions/no-transactions-illustration.png",
+            "mmtcLogoPath": "/assets/landing/mmtc-pamp-logo-figma.png",
+            "footerBarsImagePath": "/assets/landing/footer-gold-bars.png",
+            "videos": {
+                "id": 10,
+                "enabled": true,
+                "content": [
+                    {
+                        "order": 1,
+                        "id": 28,
+                        "videoId": "how-to-buy",
+                        "title": "How to Buy Gold?",
+                        "videoUrl": "https://youtube.com/watch?v=example1",
+                        "thumbnail": null
+                    },
+                    {
+                        "order": 2,
+                        "id": 29,
+                        "videoId": "investment",
+                        "title": "Gold Investment Guide",
+                        "videoUrl": "https://youtube.com/watch?v=example2",
+                        "thumbnail": null
+                    },
+                    {
+                        "order": 3,
+                        "id": 30,
+                        "videoId": "benefits",
+                        "title": "Why Digital Gold?",
+                        "videoUrl": "https://youtube.com/watch?v=example3",
+                        "thumbnail": null
+                    }
+                ]
+            },
+            "mmtcLogo": null,
+            "heroImage": null,
+            "maskImage": null,
+            "actionCards": {
+                "id": 10,
+                "enabled": true,
+                "content": [
+                    {
+                        "order": 1,
+                        "id": 37,
+                        "cardId": "buy",
+                        "title": "Buy Gold",
+                        "subtitle": "Starting from Rs.10",
+                        "image": null
+                    },
+                    {
+                        "order": 2,
+                        "id": 38,
+                        "cardId": "sip",
+                        "title": "SIP in Gold",
+                        "subtitle": "Starting from Rs. 50/week",
+                        "image": null
+                    },
+                    {
+                        "order": 3,
+                        "id": 39,
+                        "cardId": "gift",
+                        "title": "Gift Gold",
+                        "subtitle": "Instant & Personal",
+                        "image": null
+                    },
+                    {
+                        "order": 4,
+                        "id": 40,
+                        "cardId": "sell",
+                        "title": "Sell Gold",
+                        "subtitle": "Instant & Personal",
+                        "image": null
+                    }
+                ]
+            },
+            "sidebarFAQs": {
+                "id": 10,
+                "enabled": true,
+                "content": [
+                    {
+                        "order": 1,
+                        "id": 37,
+                        "faqId": "why-digital-gold",
+                        "title": "Why Digital Gold?",
+                        "content": "Digital Gold offers several advantages: Start investing with as little as Rs.10, 999.9 purity (24K) gold backed by MMTC-PAMP, No storage hassles - stored securely in insured vaults.",
+                        "isExternal": false,
+                        "externalUrl": null,
+                        "icon": null
+                    },
+                    {
+                        "order": 2,
+                        "id": 38,
+                        "faqId": "calculate-sip",
+                        "title": "Calculate SIP",
+                        "content": "Gold SIP Calculator: Invest systematically in gold with flexible SIP options. Daily SIP: Starting from Rs.10/day, Weekly SIP: Starting from Rs.50/week, Monthly SIP: Starting from Rs.100/month.",
+                        "isExternal": false,
+                        "externalUrl": null,
+                        "icon": null
+                    },
+                    {
+                        "order": 3,
+                        "id": 39,
+                        "faqId": "how-it-works",
+                        "title": "How Digital gold works?",
+                        "content": "Simple 4-step process: 1. Buy: Purchase gold at live prices instantly, 2. Store: Gold is stored in secure MMTC-PAMP vaults, 3. Track: Monitor your holdings in real-time, 4. Redeem: Sell for cash or get physical delivery.",
+                        "isExternal": false,
+                        "externalUrl": null,
+                        "icon": null
+                    },
+                    {
+                        "order": 4,
+                        "id": 40,
+                        "faqId": "other-questions",
+                        "title": "Other questions?",
+                        "content": null,
+                        "isExternal": true,
+                        "externalUrl": "https://help.abcd.com/digital-gold",
+                        "icon": null
+                    }
+                ]
+            },
+            "patternImage": null,
+            "promoBanners": {
+                "id": 10,
+                "enabled": true,
+                "content": [
+                    {
+                        "order": 1,
+                        "id": 19,
+                        "backgroundColor": "linear-gradient(180deg, #fff4ce 32%, #f7a500 215%)",
+                        "title": "Unlock potential growth with",
+                        "highlightedText": "Gold SIP",
+                        "subtitle": "Starting from Rs.100",
+                        "ctaText": "Start SIP",
+                        "leftImage": null,
+                        "rightImage": null
+                    },
+                    {
+                        "order": 2,
+                        "id": 20,
+                        "backgroundColor": "linear-gradient(180deg, #e8f5e9 32%, #81c784 215%)",
+                        "title": "Save smartly with",
+                        "highlightedText": "Daily Gold",
+                        "subtitle": "Starting from Rs.10/day",
+                        "ctaText": "Start Saving",
+                        "leftImage": null,
+                        "rightImage": null
+                    }
+                ]
+            },
+            "comparisonRows": {
+                "id": 10,
+                "enabled": true,
+                "content": [
+                    {
+                        "order": 1,
+                        "id": 64,
+                        "rowId": "ownership",
+                        "label": "Direct Ownership",
+                        "values": [
+                            true,
+                            true,
+                            true
+                        ]
+                    },
+                    {
+                        "order": 2,
+                        "id": 65,
+                        "rowId": "trading",
+                        "label": "24/7 Trading",
+                        "values": [
+                            true,
+                            false,
+                            false
+                        ]
+                    },
+                    {
+                        "order": 3,
+                        "id": 66,
+                        "rowId": "redemption",
+                        "label": "Physical Redemption",
+                        "values": [
+                            true,
+                            "Account Min ($800k)",
+                            false
+                        ]
+                    },
+                    {
+                        "order": 4,
+                        "id": 67,
+                        "rowId": "ease",
+                        "label": "Ease of Use",
+                        "values": [
+                            "Immediate Funding",
+                            "Immediate Funding",
+                            "Pre-Fund & Wait"
+                        ]
+                    },
+                    {
+                        "order": 5,
+                        "id": 68,
+                        "rowId": "liquidity",
+                        "label": "Instant Liquidity",
+                        "values": [
+                            true,
+                            false,
+                            false
+                        ]
+                    },
+                    {
+                        "order": 6,
+                        "id": 69,
+                        "rowId": "charges",
+                        "label": "Making Charges",
+                        "values": [
+                            "No Making Charges",
+                            "8%-16%",
+                            "No Making Charges"
+                        ]
+                    },
+                    {
+                        "order": 7,
+                        "id": 70,
+                        "rowId": "regulated",
+                        "label": "Regulated",
+                        "values": [
+                            false,
+                            false,
+                            true
+                        ]
+                    }
+                ]
+            },
+            "footerFeatures": {
+                "id": 10,
+                "enabled": true,
+                "content": [
+                    {
+                        "order": 1,
+                        "id": 37,
+                        "text": "999.9+ Purest Gold(24K)"
+                    },
+                    {
+                        "order": 2,
+                        "id": 38,
+                        "text": "Finest Swiss Craftmanship"
+                    },
+                    {
+                        "order": 3,
+                        "id": 39,
+                        "text": "Positive Weight & Purity Tolerance"
+                    },
+                    {
+                        "order": 4,
+                        "id": 40,
+                        "text": "LBMA Good Delivery Refiner"
+                    }
+                ]
+            },
+            "footerBarsImage": null,
+            "comparisonColumns": {
+                "id": 10,
+                "enabled": true,
+                "content": [
+                    {
+                        "order": 1,
+                        "id": 28,
+                        "columnId": "digital",
+                        "title": "Digital Gold",
+                        "isHighlighted": true
+                    },
+                    {
+                        "order": 2,
+                        "id": 29,
+                        "columnId": "physical",
+                        "title": "Physical Gold",
+                        "isHighlighted": false
+                    },
+                    {
+                        "order": 3,
+                        "id": 30,
+                        "columnId": "etf",
+                        "title": "ETFs",
+                        "isHighlighted": false
+                    }
+                ]
+            },
+            "userSidebarAssets": {
+                "id": 10,
+                "iconProfilePath": "/assets/sidebar/icon-profile.svg",
+                "iconInfoPath": "/assets/sidebar/icon-info.svg",
+                "iconLogoutPath": "/assets/sidebar/icon-logout.svg",
+                "logoFooterPath": "/assets/sidebar/logo-abcd-footer.png",
+                "logoutIllustrationPath": "/assets/sidebar/logout-illustration.png",
+                "otpIllustrationPath": "/assets/profile/otp-illustration.png",
+                "iconInfo": null,
+                "iconLogout": null,
+                "logoFooter": null,
+                "iconProfile": null,
+                "otpIllustration": null,
+                "logoutIllustration": null
+            },
+            "keyHighlightsConfig": {
+                "id": 10,
+                "holdingsLabel": "Gold Holdings",
+                "badgeText": "Join 1L+ investors trusting ABCD for DigiGold.",
+                "title": "Your Digital Gold",
+                "ctaText": "Buy More Gold",
+                "highlights": [
+                    {
+                        "order": 1,
+                        "id": 28,
+                        "text": "999.9 purity guaranteed"
+                    },
+                    {
+                        "order": 2,
+                        "id": 29,
+                        "text": "Stored in secure vaults"
+                    },
+                    {
+                        "order": 3,
+                        "id": 30,
+                        "text": "Instant liquidity"
+                    }
+                ]
+            },
+            "referralBannerAssets": {
+                "id": 10,
+                "treasureChestPath": "/assets/referral-banner/treasure-chest.png",
+                "goldCoinPath": "/assets/referral-banner/gold-coin.png",
+                "chevronPath": "/assets/referral-banner/double-chevron.png",
+                "chevron": null,
+                "goldCoin": null,
+                "treasureChest": null
+            },
+            "transactionsEmptyImage": null,
+            "transactionsEmptyStateConfig": {
+                "id": 10,
+                "ctaText": "Buy your first grams of gold",
+                "bannerHighlight": "Gold",
+                "bannerDescription": "Start your gold investment journey today"
+            }
+        },
+        {
+            "id": 12,
+            "documentId": "kb4x4h3iiq3t9rqk999zb9nv",
+            "subProduct": "silver",
+            "sectionTitleComparison": "Why Choose Digital Silver",
+            "sectionSubtitleVideos": "Investing in silver has never been simpler",
+            "sectionTitleReferral": "Help friends start their silver journey",
+            "livePriceDisclaimer": "Live silver prices",
+            "footerReferenceHeading": "Powered by",
+            "footerReferenceName": "ABCD",
+            "footerReferenceCertification": "Aditya Birla\nCapital Digital Ltd.",
+            "createdAt": "2026-02-15T10:26:08.374Z",
+            "updatedAt": "2026-02-15T10:26:08.374Z",
+            "publishedAt": "2026-02-15T10:26:08.388Z",
+            "heroImagePath": "/assets/landing/digisilver/silver-bars-glow.png",
+            "patternImagePath": "/assets/dashboard/floral-pattern-tile.png",
+            "maskImagePath": "/assets/dashboard/hero-cloud-mask.svg",
+            "transactionsEmptyImagePath": "/assets/transactions/no-transactions-illustration.png",
+            "mmtcLogoPath": "/assets/landing/digisilver/mmtc-pamp-logo.png",
+            "footerBarsImagePath": "/assets/landing/digisilver/silver-bars-glow.png",
+            "videos": {
+                "id": 12,
+                "enabled": true,
+                "content": [
+                    {
+                        "order": 1,
+                        "id": 34,
+                        "videoId": "how-to-buy",
+                        "title": "How to Buy Silver?",
+                        "videoUrl": "https://youtube.com/watch?v=example1",
+                        "thumbnail": null
+                    },
+                    {
+                        "order": 2,
+                        "id": 35,
+                        "videoId": "investment",
+                        "title": "Silver Investment Guide",
+                        "videoUrl": "https://youtube.com/watch?v=example2",
+                        "thumbnail": null
+                    },
+                    {
+                        "order": 3,
+                        "id": 36,
+                        "videoId": "benefits",
+                        "title": "Why Digital Silver?",
+                        "videoUrl": "https://youtube.com/watch?v=example3",
+                        "thumbnail": null
+                    }
+                ]
+            },
+            "mmtcLogo": null,
+            "heroImage": null,
+            "maskImage": null,
+            "actionCards": {
+                "id": 12,
+                "enabled": true,
+                "content": [
+                    {
+                        "order": 1,
+                        "id": 45,
+                        "cardId": "buy",
+                        "title": "Buy Silver",
+                        "subtitle": "Starting from Rs.10",
+                        "image": null
+                    },
+                    {
+                        "order": 2,
+                        "id": 46,
+                        "cardId": "sip",
+                        "title": "SIP in Silver",
+                        "subtitle": "Starting from Rs. 50/week",
+                        "image": null
+                    },
+                    {
+                        "order": 3,
+                        "id": 47,
+                        "cardId": "gift",
+                        "title": "Gift Silver",
+                        "subtitle": "Instant & Personal",
+                        "image": null
+                    },
+                    {
+                        "order": 4,
+                        "id": 48,
+                        "cardId": "sell",
+                        "title": "Sell Silver",
+                        "subtitle": "Instant & Personal",
+                        "image": null
+                    }
+                ]
+            },
+            "sidebarFAQs": {
+                "id": 12,
+                "enabled": true,
+                "content": [
+                    {
+                        "order": 1,
+                        "id": 45,
+                        "faqId": "why-digital-silver",
+                        "title": "Why Digital Silver?",
+                        "content": "Digital Silver offers several advantages: Start investing with as little as Rs.10, 999.9 purity silver backed by MMTC-PAMP, No storage hassles - stored securely in insured vaults.",
+                        "isExternal": false,
+                        "externalUrl": null,
+                        "icon": null
+                    },
+                    {
+                        "order": 2,
+                        "id": 46,
+                        "faqId": "calculate-sip",
+                        "title": "Calculate SIP",
+                        "content": "Silver SIP Calculator: Invest systematically in silver with flexible SIP options. Daily SIP: Starting from Rs.10/day, Weekly SIP: Starting from Rs.50/week, Monthly SIP: Starting from Rs.100/month.",
+                        "isExternal": false,
+                        "externalUrl": null,
+                        "icon": null
+                    },
+                    {
+                        "order": 3,
+                        "id": 47,
+                        "faqId": "how-it-works",
+                        "title": "How Digital silver works?",
+                        "content": "Simple 4-step process: 1. Buy: Purchase silver at live prices instantly, 2. Store: Silver is stored in secure MMTC-PAMP vaults, 3. Track: Monitor your holdings in real-time, 4. Redeem: Sell for cash or get physical delivery.",
+                        "isExternal": false,
+                        "externalUrl": null,
+                        "icon": null
+                    },
+                    {
+                        "order": 4,
+                        "id": 48,
+                        "faqId": "other-questions",
+                        "title": "Other questions?",
+                        "content": null,
+                        "isExternal": true,
+                        "externalUrl": "https://help.abcd.com/digital-silver",
+                        "icon": null
+                    }
+                ]
+            },
+            "patternImage": null,
+            "promoBanners": {
+                "id": 12,
+                "enabled": true,
+                "content": [
+                    {
+                        "order": 1,
+                        "id": 23,
+                        "backgroundColor": "linear-gradient(180deg, #e8e8e8 32%, #a0a0a0 215%)",
+                        "title": "Unlock potential growth with",
+                        "highlightedText": "Silver SIP",
+                        "subtitle": "Starting from Rs.100",
+                        "ctaText": "Start SIP",
+                        "leftImage": null,
+                        "rightImage": null
+                    },
+                    {
+                        "order": 2,
+                        "id": 24,
+                        "backgroundColor": "linear-gradient(180deg, #f0f0f0 32%, #c0c0c0 215%)",
+                        "title": "Save smartly with",
+                        "highlightedText": "Daily Silver",
+                        "subtitle": "Starting from Rs.10/day",
+                        "ctaText": "Start Saving",
+                        "leftImage": null,
+                        "rightImage": null
+                    }
+                ]
+            },
+            "comparisonRows": {
+                "id": 12,
+                "enabled": true,
+                "content": [
+                    {
+                        "order": 1,
+                        "id": 78,
+                        "rowId": "ownership",
+                        "label": "Direct Ownership",
+                        "values": [
+                            true,
+                            true,
+                            true
+                        ]
+                    },
+                    {
+                        "order": 2,
+                        "id": 79,
+                        "rowId": "trading",
+                        "label": "24/7 Trading",
+                        "values": [
+                            true,
+                            false,
+                            false
+                        ]
+                    },
+                    {
+                        "order": 3,
+                        "id": 80,
+                        "rowId": "redemption",
+                        "label": "Physical Redemption",
+                        "values": [
+                            true,
+                            "Account Min ($800k)",
+                            false
+                        ]
+                    },
+                    {
+                        "order": 4,
+                        "id": 81,
+                        "rowId": "ease",
+                        "label": "Ease of Use",
+                        "values": [
+                            "Immediate Funding",
+                            "Immediate Funding",
+                            "Pre-Fund & Wait"
+                        ]
+                    },
+                    {
+                        "order": 5,
+                        "id": 82,
+                        "rowId": "liquidity",
+                        "label": "Instant Liquidity",
+                        "values": [
+                            true,
+                            false,
+                            false
+                        ]
+                    },
+                    {
+                        "order": 6,
+                        "id": 83,
+                        "rowId": "charges",
+                        "label": "Making Charges",
+                        "values": [
+                            "No Making Charges",
+                            "8%-16%",
+                            "No Making Charges"
+                        ]
+                    },
+                    {
+                        "order": 7,
+                        "id": 84,
+                        "rowId": "regulated",
+                        "label": "Regulated",
+                        "values": [
+                            false,
+                            false,
+                            true
+                        ]
+                    }
+                ]
+            },
+            "footerFeatures": {
+                "id": 12,
+                "enabled": true,
+                "content": [
+                    {
+                        "order": 1,
+                        "id": 45,
+                        "text": "999.9+ Purest Silver"
+                    },
+                    {
+                        "order": 2,
+                        "id": 46,
+                        "text": "Finest Swiss Craftmanship"
+                    },
+                    {
+                        "order": 3,
+                        "id": 47,
+                        "text": "Positive Weight & Purity Tolerance"
+                    },
+                    {
+                        "order": 4,
+                        "id": 48,
+                        "text": "LBMA Good Delivery Refiner"
+                    }
+                ]
+            },
+            "footerBarsImage": null,
+            "comparisonColumns": {
+                "id": 12,
+                "enabled": true,
+                "content": [
+                    {
+                        "order": 1,
+                        "id": 34,
+                        "columnId": "digital",
+                        "title": "Digital Silver",
+                        "isHighlighted": true
+                    },
+                    {
+                        "order": 2,
+                        "id": 35,
+                        "columnId": "physical",
+                        "title": "Physical Silver",
+                        "isHighlighted": false
+                    },
+                    {
+                        "order": 3,
+                        "id": 36,
+                        "columnId": "etf",
+                        "title": "Silver ETFs",
+                        "isHighlighted": false
+                    }
+                ]
+            },
+            "userSidebarAssets": {
+                "id": 12,
+                "iconProfilePath": "/assets/sidebar/icon-profile.svg",
+                "iconInfoPath": "/assets/sidebar/icon-info.svg",
+                "iconLogoutPath": "/assets/sidebar/icon-logout.svg",
+                "logoFooterPath": "/assets/sidebar/logo-abcd-footer.png",
+                "logoutIllustrationPath": "/assets/sidebar/logout-illustration.png",
+                "otpIllustrationPath": "/assets/profile/otp-illustration.png",
+                "iconInfo": null,
+                "iconLogout": null,
+                "logoFooter": null,
+                "iconProfile": null,
+                "otpIllustration": null,
+                "logoutIllustration": null
+            },
+            "keyHighlightsConfig": {
+                "id": 12,
+                "holdingsLabel": "Silver Holdings",
+                "badgeText": "Join 1L+ investors trusting ABCD for DigiSilver.",
+                "title": "Your Digital Silver",
+                "ctaText": "Buy More Silver",
+                "highlights": [
+                    {
+                        "order": 1,
+                        "id": 34,
+                        "text": "999.9 purity guaranteed"
+                    },
+                    {
+                        "order": 2,
+                        "id": 35,
+                        "text": "Stored in secure vaults"
+                    },
+                    {
+                        "order": 3,
+                        "id": 36,
+                        "text": "Instant liquidity"
+                    }
+                ]
+            },
+            "referralBannerAssets": {
+                "id": 12,
+                "treasureChestPath": "/assets/referral-banner/treasure-chest.png",
+                "goldCoinPath": "/assets/landing/digisilver/silver-bars-small.png",
+                "chevronPath": "/assets/referral-banner/double-chevron.png",
+                "chevron": null,
+                "goldCoin": null,
+                "treasureChest": null
+            },
+            "transactionsEmptyImage": null,
+            "transactionsEmptyStateConfig": {
+                "id": 12,
+                "ctaText": "Buy your first grams of silver",
+                "bannerHighlight": "Silver",
+                "bannerDescription": "Start your silver investment journey today"
+            }
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "page": 1,
+            "pageSize": 25,
+            "pageCount": 1,
+            "total": 2
+        }
+    }
+}

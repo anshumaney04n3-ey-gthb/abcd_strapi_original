@@ -1,0 +1,40 @@
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: abc_dost_mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: Password@123
+      MYSQL_DATABASE: abc_dost
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    command: 
+      --sort_buffer_size=4M
+      --read_rnd_buffer_size=4M
+      --innodb_buffer_pool_size=256M
+      --max_allowed_packet=64M
+      --default-authentication-plugin=mysql_native_password
+
+  python:
+    image: python:3.10
+    container_name: abc_dost_python
+    restart: always
+    working_dir: /app
+    volumes:
+      - .:/app
+    command: tail -f /dev/null
+
+  redis:
+    image: redis:7-alpine
+    container_name: abc_dost_redis
+    restart: always
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+
+volumes:
+  mysql_data:
+  redis_data:

@@ -1,0 +1,353 @@
+{
+    "data": [
+        {
+            "id": 2,
+            "documentId": "vfg98wfdaq35b0txeid4lq54",
+            "identifier": "default",
+            "subProduct": "common",
+            "reportUri": "/digitalmetal/api/csp-report",
+            "reportOnly": false,
+            "isActive": true,
+            "description": "Default CSP configuration for all DigiMetal products",
+            "createdAt": "2026-02-14T16:32:12.067Z",
+            "updatedAt": "2026-02-14T16:32:12.067Z",
+            "publishedAt": "2026-02-14T16:32:12.069Z",
+            "directives": [
+                {
+                    "id": 12,
+                    "directive": "default-src",
+                    "sources": [
+                        "'self'"
+                    ]
+                },
+                {
+                    "id": 13,
+                    "directive": "script-src",
+                    "sources": [
+                        "'self'",
+                        "'unsafe-inline'",
+                        "https://www.googletagmanager.com",
+                        "https://checkout.razorpay.com",
+                        "https://*.razorpay.com"
+                    ]
+                },
+                {
+                    "id": 14,
+                    "directive": "style-src",
+                    "sources": [
+                        "'self'",
+                        "'unsafe-inline'"
+                    ]
+                },
+                {
+                    "id": 15,
+                    "directive": "img-src",
+                    "sources": [
+                        "'self'",
+                        "data:",
+                        "https:",
+                        "http://localhost:1337",
+                        "https://abcduat1.abcscuat.com",
+                        "https://storage.googleapis.com"
+                    ]
+                },
+                {
+                    "id": 16,
+                    "directive": "connect-src",
+                    "sources": [
+                        "'self'",
+                        "https://www.google-analytics.com",
+                        "http://localhost:1337",
+                        "https://abcduat1.abcscuat.com",
+                        "https://*.razorpay.com",
+                        "https://api.razorpay.com",
+                        "https://lumberjack.razorpay.com"
+                    ]
+                },
+                {
+                    "id": 17,
+                    "directive": "frame-src",
+                    "sources": [
+                        "'self'",
+                        "https://*.razorpay.com",
+                        "https://api.razorpay.com"
+                    ]
+                },
+                {
+                    "id": 18,
+                    "directive": "media-src",
+                    "sources": [
+                        "'self'",
+                        "https:",
+                        "http://localhost:1337",
+                        "https://abcduat1.abcscuat.com"
+                    ]
+                },
+                {
+                    "id": 19,
+                    "directive": "font-src",
+                    "sources": [
+                        "'self'"
+                    ]
+                },
+                {
+                    "id": 20,
+                    "directive": "frame-ancestors",
+                    "sources": [
+                        "'none'"
+                    ]
+                },
+                {
+                    "id": 21,
+                    "directive": "object-src",
+                    "sources": [
+                        "'none'"
+                    ]
+                },
+                {
+                    "id": 22,
+                    "directive": "base-uri",
+                    "sources": [
+                        "'self'"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "documentId": "cy7y4cpngk99yuxglqb2t7cd",
+            "identifier": "gold",
+            "subProduct": "gold",
+            "reportUri": "/digimetal/api/csp-report",
+            "reportOnly": false,
+            "isActive": true,
+            "description": "CSP configuration specific to DigiGold product",
+            "createdAt": "2026-02-14T16:32:12.092Z",
+            "updatedAt": "2026-02-14T16:32:12.092Z",
+            "publishedAt": "2026-02-14T16:32:12.094Z",
+            "directives": [
+                {
+                    "id": 35,
+                    "directive": "default-src",
+                    "sources": [
+                        "'self'"
+                    ]
+                },
+                {
+                    "id": 36,
+                    "directive": "script-src",
+                    "sources": [
+                        "'self'",
+                        "'nonce-{{nonce}}'",
+                        "https://www.googletagmanager.com",
+                        "https://www.google.com"
+                    ]
+                },
+                {
+                    "id": 37,
+                    "directive": "style-src",
+                    "sources": [
+                        "'self'",
+                        "'unsafe-inline'"
+                    ]
+                },
+                {
+                    "id": 38,
+                    "directive": "img-src",
+                    "sources": [
+                        "'self'",
+                        "data:",
+                        "https:",
+                        "blob:",
+                        "http://localhost:1337"
+                    ]
+                },
+                {
+                    "id": 39,
+                    "directive": "connect-src",
+                    "sources": [
+                        "'self'",
+                        "https://www.google-analytics.com",
+                        "https://api.abcd.com",
+                        "http://localhost:1337"
+                    ]
+                },
+                {
+                    "id": 40,
+                    "directive": "media-src",
+                    "sources": [
+                        "'self'",
+                        "https:",
+                        "http://localhost:1337"
+                    ]
+                },
+                {
+                    "id": 41,
+                    "directive": "font-src",
+                    "sources": [
+                        "'self'",
+                        "https://fonts.gstatic.com"
+                    ]
+                },
+                {
+                    "id": 42,
+                    "directive": "frame-src",
+                    "sources": [
+                        "'self'",
+                        "https://www.google.com"
+                    ]
+                },
+                {
+                    "id": 43,
+                    "directive": "frame-ancestors",
+                    "sources": [
+                        "'none'"
+                    ]
+                },
+                {
+                    "id": 44,
+                    "directive": "object-src",
+                    "sources": [
+                        "'none'"
+                    ]
+                },
+                {
+                    "id": 45,
+                    "directive": "base-uri",
+                    "sources": [
+                        "'self'"
+                    ]
+                },
+                {
+                    "id": 46,
+                    "directive": "form-action",
+                    "sources": [
+                        "'self'"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "documentId": "t33tetjq5p3cd2cmwh3g4no4",
+            "identifier": "silver",
+            "subProduct": "silver",
+            "reportUri": "/digimetal/api/csp-report",
+            "reportOnly": false,
+            "isActive": true,
+            "description": "CSP configuration specific to DigiSilver product",
+            "createdAt": "2026-02-14T16:32:12.138Z",
+            "updatedAt": "2026-02-14T16:32:12.138Z",
+            "publishedAt": "2026-02-14T16:32:12.142Z",
+            "directives": [
+                {
+                    "id": 59,
+                    "directive": "default-src",
+                    "sources": [
+                        "'self'"
+                    ]
+                },
+                {
+                    "id": 60,
+                    "directive": "script-src",
+                    "sources": [
+                        "'self'",
+                        "'nonce-{{nonce}}'",
+                        "https://www.googletagmanager.com",
+                        "https://www.google.com"
+                    ]
+                },
+                {
+                    "id": 61,
+                    "directive": "style-src",
+                    "sources": [
+                        "'self'",
+                        "'unsafe-inline'"
+                    ]
+                },
+                {
+                    "id": 62,
+                    "directive": "img-src",
+                    "sources": [
+                        "'self'",
+                        "data:",
+                        "https:",
+                        "blob:",
+                        "http://localhost:1337"
+                    ]
+                },
+                {
+                    "id": 63,
+                    "directive": "connect-src",
+                    "sources": [
+                        "'self'",
+                        "https://www.google-analytics.com",
+                        "https://api.abcd.com",
+                        "http://localhost:1337"
+                    ]
+                },
+                {
+                    "id": 64,
+                    "directive": "media-src",
+                    "sources": [
+                        "'self'",
+                        "https:",
+                        "http://localhost:1337"
+                    ]
+                },
+                {
+                    "id": 65,
+                    "directive": "font-src",
+                    "sources": [
+                        "'self'",
+                        "https://fonts.gstatic.com"
+                    ]
+                },
+                {
+                    "id": 66,
+                    "directive": "frame-src",
+                    "sources": [
+                        "'self'",
+                        "https://www.google.com"
+                    ]
+                },
+                {
+                    "id": 67,
+                    "directive": "frame-ancestors",
+                    "sources": [
+                        "'none'"
+                    ]
+                },
+                {
+                    "id": 68,
+                    "directive": "object-src",
+                    "sources": [
+                        "'none'"
+                    ]
+                },
+                {
+                    "id": 69,
+                    "directive": "base-uri",
+                    "sources": [
+                        "'self'"
+                    ]
+                },
+                {
+                    "id": 70,
+                    "directive": "form-action",
+                    "sources": [
+                        "'self'"
+                    ]
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "page": 1,
+            "pageSize": 25,
+            "pageCount": 1,
+            "total": 3
+        }
+    }
+}
