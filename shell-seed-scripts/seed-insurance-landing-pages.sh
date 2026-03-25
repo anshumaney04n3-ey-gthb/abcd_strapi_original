@@ -19,6 +19,16 @@ seed_page() {
                 "data": {
                     "footerSideImageAlt": "Gold Investment Footer Image",
                     "phoneMockupAlt": "Digital Gold App Preview",
+                    "footerReferenceHeading": "Offered by",
+                    "footerReferenceName": "Vodafone",
+                    "footerReferenceCertification": "ISO 27001:2013 certified.",
+                    "widgetPriceSuffix": "/year",
+                    "widgetPriceValidForSeconds": 300,
+                    "widgetMinAmount": 2500,
+                    "widgetMaxAmount": 100000,
+                    "widgetMinWeight": 0,
+                    "widgetMaxWeight": 100,
+                    "sipCalculatorEnabled": true,
                     "benefits": {
                         "enabled": true,
                         "content": [
@@ -46,7 +56,16 @@ seed_page() {
                         "enabled": true,
                         "content": {
                             "number": "01",
-                            "title": "Premium Protection"
+                            "title": "Premium Protection",
+                            "featureChips": [
+                                {"order": 1, "text": "Cashless Claims"},
+                                {"order": 2, "text": "24/7 Support"},
+                                {"order": 3, "text": "Easy Renewal"}
+                            ],
+                            "sipPlans": [
+                                {"order": 1, "planId": "basic", "title": "Basic Plan", "subtitle": "Starting at ₹2,500", "badge": "Popular"},
+                                {"order": 2, "planId": "premium", "title": "Premium Plan", "subtitle": "Starting at ₹5,000", "badge": "Recommended"}
+                            ]
                         }
                     },
                     "smartFeatureCoins": {
@@ -58,6 +77,14 @@ seed_page() {
                             "description": "Get your claims settled within 24 hours with our streamlined process",
                             "ctaText": "Learn More"
                         }
+                    },
+                    "smartFeatures": {
+                        "enabled": true,
+                        "content": [
+                            {"number": "01", "title": "Instant Coverage", "description": "Get covered within minutes", "variant": "gold", "ctaText": "Learn More"},
+                            {"number": "02", "title": "Easy Claims", "description": "Hassle-free claim process", "variant": "silver", "ctaText": "Claim Now"},
+                            {"number": "03", "title": "24/7 Support", "description": "Round-the-clock assistance", "variant": "bronze", "ctaText": "Contact Us"}
+                        ]
                     },
                     "comparisonColumns": {
                         "enabled": true,
@@ -127,6 +154,49 @@ seed_page() {
                             "metaDescription": "Get comprehensive motor insurance coverage. Cashless claims, 24/7 support, easy renewal.",
                             "metaKeywords": "motor insurance, vehicle insurance, car insurance"
                         }
+                    },
+                    "heroSlides": {
+                        "enabled": true,
+                        "content": []
+                    },
+                    "workTabs": {
+                        "enabled": true,
+                        "content": []
+                    },
+                    "securityFeatures": {
+                        "enabled": true,
+                        "content": []
+                    },
+                    "educationCards": {
+                        "enabled": true,
+                        "content": []
+                    },
+                    "videos": {
+                        "enabled": true,
+                        "content": []
+                    },
+                    "appStoreButtons": {
+                        "enabled": true,
+                        "content": []
+                    },
+                    "sipCalculatorConfig": {
+                        "enabled": true,
+                        "minInvestment": 100,
+                        "maxInvestment": 100000,
+                        "defaultInvestment": 5000,
+                        "minReturnRate": 5,
+                        "maxReturnRate": 20,
+                        "defaultReturnRate": 12,
+                        "minTimePeriod": 1,
+                        "maxTimePeriod": 30,
+                        "defaultTimePeriod": 10,
+                        "historicalCAGR": 23
+                    },
+                    "cagrConfig": {
+                        "enabled": true,
+                        "years": 10,
+                        "label": "10Y CAGR",
+                        "value": 23
                     }
                 }
             }' | jq -r '.data.id // "failed"'
@@ -137,6 +207,16 @@ seed_page() {
                 "data": {
                     "footerSideImageAlt": "Pocket Insurance Footer Image",
                     "phoneMockupAlt": "Pocket Insurance App Preview",
+                    "footerReferenceHeading": "Offered by",
+                    "footerReferenceName": "Vodafone",
+                    "footerReferenceCertification": "ISO 27001:2013 certified.",
+                    "widgetPriceSuffix": "/month",
+                    "widgetPriceValidForSeconds": 300,
+                    "widgetMinAmount": 99,
+                    "widgetMaxAmount": 5000,
+                    "widgetMinWeight": 0,
+                    "widgetMaxWeight": 10,
+                    "sipCalculatorEnabled": false,
                     "benefits": {
                         "enabled": true,
                         "content": [
@@ -164,7 +244,15 @@ seed_page() {
                         "enabled": true,
                         "content": {
                             "number": "01",
-                            "title": "Micro Insurance"
+                            "title": "Micro Insurance",
+                            "featureChips": [
+                                {"order": 1, "text": "Starting at ₹99"},
+                                {"order": 2, "text": "Instant Cover"},
+                                {"order": 3, "text": "Digital Policy"}
+                            ],
+                            "sipPlans": [
+                                {"order": 1, "planId": "monthly", "title": "Monthly Plan", "subtitle": "Starting at ₹99", "badge": "Popular"}
+                            ]
                         }
                     },
                     "smartFeatureCoins": {
@@ -176,6 +264,14 @@ seed_page() {
                             "description": "Get daily hospital cash, device protection and more",
                             "ctaText": "View Plans"
                         }
+                    },
+                    "smartFeatures": {
+                        "enabled": true,
+                        "content": [
+                            {"number": "01", "title": "Affordable", "description": "Starting at just ₹99/month", "variant": "gold", "ctaText": "View Plans"},
+                            {"number": "02", "title": "Instant", "description": "Get covered immediately", "variant": "silver", "ctaText": "Get Started"},
+                            {"number": "03", "title": "Digital", "description": "100% online process", "variant": "bronze", "ctaText": "Learn More"}
+                        ]
                     },
                     "comparisonColumns": {
                         "enabled": true,
@@ -243,6 +339,49 @@ seed_page() {
                             "metaDescription": "Affordable pocket insurance starting at ₹99/month. Instant coverage, easy claims.",
                             "metaKeywords": "pocket insurance, micro insurance, affordable insurance"
                         }
+                    },
+                    "heroSlides": {
+                        "enabled": true,
+                        "content": []
+                    },
+                    "workTabs": {
+                        "enabled": true,
+                        "content": []
+                    },
+                    "securityFeatures": {
+                        "enabled": true,
+                        "content": []
+                    },
+                    "educationCards": {
+                        "enabled": true,
+                        "content": []
+                    },
+                    "videos": {
+                        "enabled": true,
+                        "content": []
+                    },
+                    "appStoreButtons": {
+                        "enabled": true,
+                        "content": []
+                    },
+                    "sipCalculatorConfig": {
+                        "enabled": false,
+                        "minInvestment": 100,
+                        "maxInvestment": 10000,
+                        "defaultInvestment": 500,
+                        "minReturnRate": 5,
+                        "maxReturnRate": 20,
+                        "defaultReturnRate": 12,
+                        "minTimePeriod": 1,
+                        "maxTimePeriod": 30,
+                        "defaultTimePeriod": 10,
+                        "historicalCAGR": 23
+                    },
+                    "cagrConfig": {
+                        "enabled": false,
+                        "years": 10,
+                        "label": "10Y CAGR",
+                        "value": 23
                     }
                 }
             }' | jq -r '.data.id // "failed"'
@@ -253,6 +392,16 @@ seed_page() {
                 "data": {
                     "footerSideImageAlt": "Travel Insurance Footer Image",
                     "phoneMockupAlt": "Travel Insurance App Preview",
+                    "footerReferenceHeading": "Offered by",
+                    "footerReferenceName": "Vodafone",
+                    "footerReferenceCertification": "ISO 27001:2013 certified.",
+                    "widgetPriceSuffix": "/trip",
+                    "widgetPriceValidForSeconds": 300,
+                    "widgetMinAmount": 500,
+                    "widgetMaxAmount": 50000,
+                    "widgetMinWeight": 0,
+                    "widgetMaxWeight": 100,
+                    "sipCalculatorEnabled": false,
                     "benefits": {
                         "enabled": true,
                         "content": [
@@ -280,7 +429,16 @@ seed_page() {
                         "enabled": true,
                         "content": {
                             "number": "01",
-                            "title": "Global Protection"
+                            "title": "Global Protection",
+                            "featureChips": [
+                                {"order": 1, "text": "Medical Coverage"},
+                                {"order": 2, "text": "Trip Cancellation"},
+                                {"order": 3, "text": "Baggage Loss"}
+                            ],
+                            "sipPlans": [
+                                {"order": 1, "planId": "basic", "title": "Basic Plan", "subtitle": "Starting at ₹500", "badge": "Popular"},
+                                {"order": 2, "planId": "standard", "title": "Standard Plan", "subtitle": "Starting at ₹1,000", "badge": "Recommended"}
+                            ]
                         }
                     },
                     "smartFeatureCoins": {
@@ -292,6 +450,14 @@ seed_page() {
                             "description": "Flight delay compensation, personal liability coverage and more",
                             "ctaText": "Know More"
                         }
+                    },
+                    "smartFeatures": {
+                        "enabled": true,
+                        "content": [
+                            {"number": "01", "title": "Global Coverage", "description": "Travel anywhere with confidence", "variant": "gold", "ctaText": "Get Quote"},
+                            {"number": "02", "title": "COVID Cover", "description": "Pandemic protection included", "variant": "silver", "ctaText": "Learn More"},
+                            {"number": "03", "title": "24/7 Assistance", "description": "Help anywhere in the world", "variant": "bronze", "ctaText": "Contact Us"}
+                        ]
                     },
                     "comparisonColumns": {
                         "enabled": true,
@@ -359,6 +525,49 @@ seed_page() {
                             "metaDescription": "Comprehensive travel insurance. Medical coverage, trip cancellation, baggage loss.",
                             "metaKeywords": "travel insurance, trip insurance, international travel insurance"
                         }
+                    },
+                    "heroSlides": {
+                        "enabled": true,
+                        "content": []
+                    },
+                    "workTabs": {
+                        "enabled": true,
+                        "content": []
+                    },
+                    "securityFeatures": {
+                        "enabled": true,
+                        "content": []
+                    },
+                    "educationCards": {
+                        "enabled": true,
+                        "content": []
+                    },
+                    "videos": {
+                        "enabled": true,
+                        "content": []
+                    },
+                    "appStoreButtons": {
+                        "enabled": true,
+                        "content": []
+                    },
+                    "sipCalculatorConfig": {
+                        "enabled": false,
+                        "minInvestment": 500,
+                        "maxInvestment": 50000,
+                        "defaultInvestment": 5000,
+                        "minReturnRate": 5,
+                        "maxReturnRate": 20,
+                        "defaultReturnRate": 12,
+                        "minTimePeriod": 1,
+                        "maxTimePeriod": 30,
+                        "defaultTimePeriod": 10,
+                        "historicalCAGR": 23
+                    },
+                    "cagrConfig": {
+                        "enabled": false,
+                        "years": 10,
+                        "label": "10Y CAGR",
+                        "value": 23
                     }
                 }
             }' | jq -r '.data.id // "failed"'
@@ -369,6 +578,16 @@ seed_page() {
                 "data": {
                     "footerSideImageAlt": "Health Insurance Footer Image",
                     "phoneMockupAlt": "Health Insurance App Preview",
+                    "footerReferenceHeading": "Offered by",
+                    "footerReferenceName": "Vodafone",
+                    "footerReferenceCertification": "ISO 27001:2013 certified.",
+                    "widgetPriceSuffix": "/year",
+                    "widgetPriceValidForSeconds": 300,
+                    "widgetMinAmount": 500,
+                    "widgetMaxAmount": 1000000,
+                    "widgetMinWeight": 0,
+                    "widgetMaxWeight": 100,
+                    "sipCalculatorEnabled": false,
                     "benefits": {
                         "enabled": true,
                         "content": [
@@ -396,7 +615,16 @@ seed_page() {
                         "enabled": true,
                         "content": {
                             "number": "01",
-                            "title": "Family Coverage"
+                            "title": "Family Coverage",
+                            "featureChips": [
+                                {"order": 1, "text": "Cashless Hospitalization"},
+                                {"order": 2, "text": "Tax Benefits"},
+                                {"order": 3, "text": "Lifetime Renewal"}
+                            ],
+                            "sipPlans": [
+                                {"order": 1, "planId": "silver", "title": "Silver Plan", "subtitle": "Starting at ₹5,000", "badge": "Popular"},
+                                {"order": 2, "planId": "gold", "title": "Gold Plan", "subtitle": "Starting at ₹10,000", "badge": "Recommended"}
+                            ]
                         }
                     },
                     "smartFeatureCoins": {
@@ -408,6 +636,14 @@ seed_page() {
                             "description": "Free health checkups, teleconsultation and discounts on medicines",
                             "ctaText": "Explore"
                         }
+                    },
+                    "smartFeatures": {
+                        "enabled": true,
+                        "content": [
+                            {"number": "01", "title": "Cashless", "description": "At 10000+ network hospitals", "variant": "gold", "ctaText": "Find Hospital"},
+                            {"number": "02", "title": "Tax Benefits", "description": "Save up to ₹75,000 under 80D", "variant": "silver", "ctaText": "Learn More"},
+                            {"number": "03", "title": "Lifetime Cover", "description": "No exit age limit", "variant": "bronze", "ctaText": "View Plans"}
+                        ]
                     },
                     "comparisonColumns": {
                         "enabled": true,
@@ -477,6 +713,49 @@ seed_page() {
                             "metaDescription": "Comprehensive health insurance. Cashless hospitalization, pre & post coverage, no claim bonus.",
                             "metaKeywords": "health insurance, medical insurance, family health insurance"
                         }
+                    },
+                    "heroSlides": {
+                        "enabled": true,
+                        "content": []
+                    },
+                    "workTabs": {
+                        "enabled": true,
+                        "content": []
+                    },
+                    "securityFeatures": {
+                        "enabled": true,
+                        "content": []
+                    },
+                    "educationCards": {
+                        "enabled": true,
+                        "content": []
+                    },
+                    "videos": {
+                        "enabled": true,
+                        "content": []
+                    },
+                    "appStoreButtons": {
+                        "enabled": true,
+                        "content": []
+                    },
+                    "sipCalculatorConfig": {
+                        "enabled": false,
+                        "minInvestment": 500,
+                        "maxInvestment": 1000000,
+                        "defaultInvestment": 10000,
+                        "minReturnRate": 5,
+                        "maxReturnRate": 20,
+                        "defaultReturnRate": 12,
+                        "minTimePeriod": 1,
+                        "maxTimePeriod": 30,
+                        "defaultTimePeriod": 10,
+                        "historicalCAGR": 23
+                    },
+                    "cagrConfig": {
+                        "enabled": false,
+                        "years": 10,
+                        "label": "10Y CAGR",
+                        "value": 23
                     }
                 }
             }' | jq -r '.data.id // "failed"'
@@ -485,8 +764,18 @@ seed_page() {
             -H "Content-Type: application/json" \
             -d '{
                 "data": {
-                    "footerSideImageAlt": "Gold Investment Footer Image",
-                    "phoneMockupAlt": "Digital Gold App Preview",
+                    "footerSideImageAlt": "Motor Insurance Footer Image",
+                    "phoneMockupAlt": "Motor Insurance App Preview",
+                    "footerReferenceHeading": "Offered by",
+                    "footerReferenceName": "MMTC-PAMP",
+                    "footerReferenceCertification": "ISO 27001:2013 certified.",
+                    "widgetPriceSuffix": "/year",
+                    "widgetPriceValidForSeconds": 300,
+                    "widgetMinAmount": 2500,
+                    "widgetMaxAmount": 100000,
+                    "widgetMinWeight": 0,
+                    "widgetMaxWeight": 100,
+                    "sipCalculatorEnabled": true,
                     "benefits": {
                         "enabled": true,
                         "content": [
@@ -514,7 +803,16 @@ seed_page() {
                         "enabled": true,
                         "content": {
                             "number": "01",
-                            "title": "Premium Protection"
+                            "title": "Premium Protection",
+                            "featureChips": [
+                                {"order": 1, "text": "Cashless Claims"},
+                                {"order": 2, "text": "24/7 Support"},
+                                {"order": 3, "text": "Easy Renewal"}
+                            ],
+                            "sipPlans": [
+                                {"order": 1, "planId": "comprehensive", "title": "Comprehensive", "subtitle": "Starting at ₹2,500", "badge": "Popular"},
+                                {"order": 2, "planId": "third-party", "title": "Third Party", "subtitle": "Starting at ₹1,200", "badge": "Basic"}
+                            ]
                         }
                     },
                     "smartFeatureCoins": {
@@ -526,6 +824,14 @@ seed_page() {
                             "description": "Get your claims settled within 24 hours",
                             "ctaText": "Learn More"
                         }
+                    },
+                    "smartFeatures": {
+                        "enabled": true,
+                        "content": [
+                            {"number": "01", "title": "Instant Coverage", "description": "Get covered within minutes", "variant": "gold", "ctaText": "Get Quote"},
+                            {"number": "02", "title": "Easy Claims", "description": "Hassle-free claim process", "variant": "silver", "ctaText": "Claim Now"},
+                            {"number": "03", "title": "24/7 Support", "description": "Round-the-clock assistance", "variant": "bronze", "ctaText": "Contact Us"}
+                        ]
                     },
                     "comparisonColumns": {
                         "enabled": true,
@@ -594,6 +900,49 @@ seed_page() {
                             "metaDescription": "Get comprehensive motor insurance coverage. Cashless claims, 24/7 support, easy renewal.",
                             "metaKeywords": "motor insurance, vehicle insurance, car insurance"
                         }
+                    },
+                    "heroSlides": {
+                        "enabled": true,
+                        "content": []
+                    },
+                    "workTabs": {
+                        "enabled": true,
+                        "content": []
+                    },
+                    "securityFeatures": {
+                        "enabled": true,
+                        "content": []
+                    },
+                    "educationCards": {
+                        "enabled": true,
+                        "content": []
+                    },
+                    "videos": {
+                        "enabled": true,
+                        "content": []
+                    },
+                    "appStoreButtons": {
+                        "enabled": true,
+                        "content": []
+                    },
+                    "sipCalculatorConfig": {
+                        "enabled": true,
+                        "minInvestment": 100,
+                        "maxInvestment": 100000,
+                        "defaultInvestment": 5000,
+                        "minReturnRate": 5,
+                        "maxReturnRate": 20,
+                        "defaultReturnRate": 12,
+                        "minTimePeriod": 1,
+                        "maxTimePeriod": 30,
+                        "defaultTimePeriod": 10,
+                        "historicalCAGR": 23
+                    },
+                    "cagrConfig": {
+                        "enabled": true,
+                        "years": 10,
+                        "label": "10Y CAGR",
+                        "value": 23
                     }
                 }
             }' | jq -r '.data.id // "failed"'
