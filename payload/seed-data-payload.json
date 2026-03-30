@@ -1,0 +1,117 @@
+{
+  "subProduct": "GOLD",
+  "partner": "Vodafone",
+  "sip": {
+    "secondaryLinkText": "Go Back",
+    "collectSipDetails": {
+      "title": "SIP",
+      "submitButtonText": "Proceed to pay",
+      "secondaryLinkText": "How did you learn about us?",
+      "helpAriaLabel": "Help with Gold SIP setup",
+      "frequencySectionTitle": "Select SIP Frequency",
+      "dateSectionTitle": "Select SIP Date",
+      "amountSectionTitle": "Enter SIP Amount",
+      "purposeSectionTitle": "Purpose of Investment",
+      "emailSectionTitle": "Email for Updates",
+      "infoBannerMessage": "Start your gold savings journey with systematic investments",
+      "disclaimerText": "SIP amount will be auto-debited on the selected date. You can pause or cancel anytime.",
+      "expectedReturnLabel": "Expected Annual Returns",
+      "expectedReturnPercentage": 12,
+      "refreshTimeSeconds": 290,
+      "defaultFrequency": "monthly",
+      "defaultDate": 1,
+      "purposes": [
+        { "label": "Wealth Creation", "value": "wealth" },
+        { "label": "Wedding", "value": "wedding" },
+        { "label": "Retirement", "value": "retirement" },
+        { "label": "Child Education", "value": "child_education" },
+        { "label": "Emergency Fund", "value": "emergency" },
+        { "label": "Other", "value": "other" }
+      ],
+      "amountChips": [
+        { "value": 1000, "label": "₹ 1000", "isPopular": false, "order": 1 },
+        { "value": 2000, "label": "₹ 2000", "isPopular": false, "order": 2 },
+        { "value": 5000, "label": "₹ 5000", "isPopular": true, "order": 3 }
+      ],
+      "validationConfig": {
+        "monthlyAmount": { "min": 100, "max": 100000 },
+        "weeklyAmount": { "min": 50, "max": 100000 },
+        "email": { "required": true },
+        "errorMessages": {
+          "amountMinMonthly": "Minimum monthly SIP amount is ₹100",
+          "amountMaxMonthly": "Maximum monthly SIP amount is ₹1,00,000",
+          "amountMinWeekly": "Minimum weekly SIP amount is ₹50",
+          "amountMaxWeekly": "Maximum weekly SIP amount is ₹10,00,000",
+          "emailRequired": "Email is required for SIP updates",
+          "emailInvalid": "Please enter a valid email address"
+        }
+      },
+      "assets": {
+        "graphLineImage": "/assets/sip-flow/graphLine.svg",
+        "graphOverlayImage": "/assets/sip-flow/graph.svg",
+        "emptyAmountProjectionImage": "/assets/sip-flow/emptyProjection.png"
+      }
+    },
+    "panVerification": {
+      "title": "PAN Verification",
+      "submitButtonText": "Confirm",
+      "secondaryLinkText": "",
+      "helpAriaLabel": "Get help with PAN verification",
+      "panFieldLabel": "PAN Number",
+      "panFieldPlaceholder": "Enter your PAN",
+      "nameFieldLabel": "Name as per PAN",
+      "nameFieldPlaceholder": "Enter name as per PAN",
+      "dobFieldLabel": "Date of Birth",
+      "dobFieldPlaceholder": "DD/MM/YYYY",
+      "noteText": "Your PAN details are required for tax compliance",
+      "termsPreText": "By proceeding, you agree to our",
+      "termsLinkText": "Terms & Conditions",
+      "termsLinkHref": "https://www.adityabirlacapital.com/abc-digital/terms-conditions"
+    },
+    "nameConfirmation": {
+      "title": "Name Confirmation",
+      "submitButtonText": "Confirm & Continue",
+      "secondaryLinkText": "Go back",
+      "helpAriaLabel": "Get help with name confirmation",
+      "nameFieldLabel": "Name as per PAN",
+      "instructionText": "Please confirm your name matches the PAN records"
+    },
+    "transactionSummary": {
+      "title": "SIP",
+      "submitButtonText": "Start SIP",
+      "helpAriaLabel": "Get help with SIP summary",
+      "summaryTitle": "Summary of your one-time investment",
+      "secondaryLinkText": "Go Back",
+      "totalLabel": "Total Amount",
+      "gstLabel": "GST",
+      "goldAmountLabel": "Gold Amount",
+      "termsPreText": "By clicking on Proceed you are agreeing to",
+      "termsLinkText": "Aditya Birla Capital Digital Terms & Conditions",
+      "termsLinkHref": "https://www.adityabirlacapital.com/abc-digital/terms-conditions",
+      "infoBannerMessage": "The mandate amount is the maximum limit that ABCD can debit from your bank account, for seamless future SIP payments."
+    },
+    "thankYou": {
+      "title": "SIP Created Successfully!",
+      "submitButtonText": "View SIP",
+      "secondaryLinkText": "Create Another SIP",
+      "helpAriaLabel": "Help with SIP confirmation",
+      "heading": "Thank You!",
+      "messagePrefix": "Your SIP has been set up successfully.",
+      "messageSuffix": "We will send you a confirmation email shortly.",
+      "successMessage": "Your Gold SIP has been set up successfully. The first installment will be debited on the selected date.",
+      "sipSummaryTitle": "SIP Summary",
+      "downloadAppPromo": {
+        "playStoreUrl": "https://play.google.com/store/apps/details?id=com.abcd.digimetal",
+        "appStoreUrl": "https://apps.apple.com/app/abcd-digimetal/id123456789"
+      }
+    },
+    "paymentFailure": {
+      "title": "SIP Payment Failed",
+      "heading": "Uh-Oh!",
+      "description": "Your SIP mandate registration could not be completed. Please try again.",
+      "submitButtonText": "Go to Dashboard",
+      "secondaryLinkText": "Try Again",
+      "helpAriaLabel": "Get help with failed SIP payment"
+    }
+  }
+}

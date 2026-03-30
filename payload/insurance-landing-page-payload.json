@@ -1,0 +1,552 @@
+{
+  "data": {
+    "subProduct": "motor",
+    "partner": "Vodafone",
+    "footerReferenceHeading": "Offered by",
+    "footerReferenceName": "MMTC-PAMP",
+    "footerReferenceCertification": "ISO 27001:2013 certified.",
+    "footerSideImageAlt": "",
+    "phoneMockupAlt": "",
+    "widgetPriceSuffix": "/gm",
+    "widgetPriceValidForSeconds": 300,
+    "widgetMinAmount": 10,
+    "widgetMaxAmount": 500000,
+    "widgetMinWeight": 0,
+    "widgetMaxWeight": 50,
+    "sipCalculatorEnabled": true,
+    "seoMeta": {
+      "enabled": false,
+      "content": {
+        "metaTitle": "",
+        "metaDescription": "",
+        "metaKeywords": "",
+        "canonicalUrl": "",
+        "ogImage": null
+      }
+    },
+    "newsItems": {
+      "enabled": true,
+      "content": [
+        {
+          "order": 1,
+          "text": "News item 1"
+        },
+        {
+          "order": 2,
+          "text": "News item 2"
+        },
+        {
+          "order": 3,
+          "text": "News item 3"
+        }
+      ]
+    },
+    "heroSlides": {
+      "enabled": true,
+      "content": [
+        {
+          "order": 1,
+          "title": "Slide Title 1",
+          "subtitle": "Slide Subtitle 1",
+          "background": null
+        },
+        {
+          "order": 2,
+          "title": "Slide Title 2",
+          "subtitle": "Slide Subtitle 2",
+          "background": null
+        },
+        {
+          "order": 3,
+          "title": "Slide Title 3",
+          "subtitle": "Slide Subtitle 3",
+          "background": null
+        }
+      ]
+    },
+    "productHighlighters": {
+      "enabled": true,
+      "content": [
+        {
+          "order": 1,
+          "text": "Highlighter 1",
+          "showIcon": true,
+          "showHeaderIcon": true
+        },
+        {
+          "order": 2,
+          "text": "Highlighter 2",
+          "showIcon": true,
+          "showHeaderIcon": true
+        },
+        {
+          "order": 3,
+          "text": "Highlighter 3",
+          "showIcon": true,
+          "showHeaderIcon": true
+        }
+      ]
+    },
+    "smartFeatures": {
+      "enabled": true,
+      "content": [
+        {
+          "variant": "default",
+          "number": "1",
+          "title": "Smart Feature 1",
+          "description": "Description for smart feature 1",
+          "ctaText": "Learn More",
+          "backgroundImage": null,
+          "decorativeImage": null
+        },
+        {
+          "variant": "default",
+          "number": "2",
+          "title": "Smart Feature 2",
+          "description": "Description for smart feature 2",
+          "ctaText": "Learn More",
+          "backgroundImage": null,
+          "decorativeImage": null
+        },
+        {
+          "variant": "default",
+          "number": "3",
+          "title": "Smart Feature 3",
+          "description": "Description for smart feature 3",
+          "ctaText": "Learn More",
+          "backgroundImage": null,
+          "decorativeImage": null
+        }
+      ]
+    },
+    "trustedPartners": {
+      "enabled": true,
+      "content": [
+        {
+          "src": null,
+          "alt": "Partner 1",
+          "order": 1
+        },
+        {
+          "src": null,
+          "alt": "Partner 2",
+          "order": 2
+        },
+        {
+          "src": null,
+          "alt": "Partner 3",
+          "order": 3
+        }
+      ]
+    },
+    "addOns": {
+      "enabled": true,
+      "content": [
+        {
+          "label": "Add-on Label",
+          "title": "Add-on Title",
+          "description": "Add-on description",
+          "benefits": ["Benefit 1", "Benefit 2", "Benefit 3"],
+          "image": null
+        }
+      ]
+    },
+    "smartFeatureSip": {
+      "enabled": true,
+      "content": {
+        "number": "1",
+        "title": "SIP Feature Title",
+        "decorativeImage": null,
+        "featureChips": [
+          {
+            "order": 1,
+            "text": "Feature Chip 1"
+          },
+          {
+            "order": 2,
+            "text": "Feature Chip 2"
+          },
+          {
+            "order": 3,
+            "text": "Feature Chip 3"
+          },
+          {
+            "order": 4,
+            "text": "Feature Chip 4"
+          }
+        ],
+        "sipPlans": [
+          {
+            "order": 1,
+            "planId": "sip-plan-1",
+            "title": "SIP Plan 1",
+            "subtitle": "Subtitle 1",
+            "badge": "Popular",
+            "image": null
+          },
+          {
+            "order": 2,
+            "planId": "sip-plan-2",
+            "title": "SIP Plan 2",
+            "subtitle": "Subtitle 2",
+            "badge": "",
+            "image": null
+          }
+        ]
+      }
+    },
+    "smartFeatureCoins": {
+      "enabled": true,
+      "content": {
+        "number": "1",
+        "title": "Coins Feature Title",
+        "subtitle": "Coins Feature Subtitle",
+        "description": "Coins feature description",
+        "ctaText": "Learn More",
+        "backgroundImage": null,
+        "stripedBackground": null,
+        "decorativeImage": null
+      }
+    },
+    "workTabs": {
+      "enabled": true,
+      "content": [
+        {
+          "order": 1,
+          "tabId": "tab-1",
+          "label": "Tab 1",
+          "ctaText": "Get Started",
+          "image": null,
+          "steps": [
+            {
+              "order": 1,
+              "number": 1,
+              "text": "Step 1"
+            },
+            {
+              "order": 2,
+              "number": 2,
+              "text": "Step 2"
+            },
+            {
+              "order": 3,
+              "number": 3,
+              "text": "Step 3"
+            },
+            {
+              "order": 4,
+              "number": 4,
+              "text": "Step 4"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "tabId": "tab-2",
+          "label": "Tab 2",
+          "ctaText": "Get Started",
+          "image": null,
+          "steps": [
+            {
+              "order": 1,
+              "number": 1,
+              "text": "Step 1"
+            },
+            {
+              "order": 2,
+              "number": 2,
+              "text": "Step 2"
+            }
+          ]
+        }
+      ]
+    },
+    "comparisonColumns": {
+      "enabled": true,
+      "content": [
+        {
+          "order": 1,
+          "columnId": "col-1",
+          "title": "Column 1",
+          "isHighlighted": false
+        },
+        {
+          "order": 2,
+          "columnId": "col-2",
+          "title": "Column 2",
+          "isHighlighted": true
+        },
+        {
+          "order": 3,
+          "columnId": "col-3",
+          "title": "Column 3",
+          "isHighlighted": false
+        }
+      ]
+    },
+    "comparisonRows": {
+      "enabled": true,
+      "content": [
+        {
+          "order": 1,
+          "rowId": "row-1",
+          "label": "Feature 1",
+          "values": ["Yes", "No", "Yes"]
+        },
+        {
+          "order": 2,
+          "rowId": "row-2",
+          "label": "Feature 2",
+          "values": ["No", "Yes", "Yes"]
+        },
+        {
+          "order": 3,
+          "rowId": "row-3",
+          "label": "Feature 3",
+          "values": ["Yes", "Yes", "No"]
+        },
+        {
+          "order": 4,
+          "rowId": "row-4",
+          "label": "Feature 4",
+          "values": ["Yes", "Yes", "Yes"]
+        },
+        {
+          "order": 5,
+          "rowId": "row-5",
+          "label": "Feature 5",
+          "values": ["No", "No", "Yes"]
+        },
+        {
+          "order": 6,
+          "rowId": "row-6",
+          "label": "Feature 6",
+          "values": ["Yes", "No", "No"]
+        },
+        {
+          "order": 7,
+          "rowId": "row-7",
+          "label": "Feature 7",
+          "values": ["No", "Yes", "No"]
+        }
+      ]
+    },
+    "benefits": {
+      "enabled": true,
+      "content": [
+        {
+          "order": 1,
+          "title": "Benefit 1",
+          "description": "Description for benefit 1",
+          "icon": null
+        },
+        {
+          "order": 2,
+          "title": "Benefit 2",
+          "description": "Description for benefit 2",
+          "icon": null
+        },
+        {
+          "order": 3,
+          "title": "Benefit 3",
+          "description": "Description for benefit 3",
+          "icon": null
+        }
+      ]
+    },
+    "securityFeatures": {
+      "enabled": true,
+      "content": [
+        {
+          "order": 1,
+          "title": "Security 1",
+          "description": "Description for security feature 1",
+          "icon": null
+        },
+        {
+          "order": 2,
+          "title": "Security 2",
+          "description": "Description for security feature 2",
+          "icon": null
+        },
+        {
+          "order": 3,
+          "title": "Security 3",
+          "description": "Description for security feature 3",
+          "icon": null
+        },
+        {
+          "order": 4,
+          "title": "Security 4",
+          "description": "Description for security feature 4",
+          "icon": null
+        },
+        {
+          "order": 5,
+          "title": "Security 5",
+          "description": "Description for security feature 5",
+          "icon": null
+        }
+      ]
+    },
+    "educationCards": {
+      "enabled": true,
+      "content": [
+        {
+          "order": 1,
+          "title": "Education Card 1",
+          "image": null,
+          "href": "https://example.com/link1"
+        },
+        {
+          "order": 2,
+          "title": "Education Card 2",
+          "image": null,
+          "href": "https://example.com/link2"
+        },
+        {
+          "order": 3,
+          "title": "Education Card 3",
+          "image": null,
+          "href": "https://example.com/link3"
+        },
+        {
+          "order": 4,
+          "title": "Education Card 4",
+          "image": null,
+          "href": "https://example.com/link4"
+        }
+      ]
+    },
+    "videos": {
+      "enabled": true,
+      "content": [
+        {
+          "order": 1,
+          "title": "Video 1",
+          "thumbnail": null,
+          "videoUrl": "https://example.com/video1",
+          "duration": "2:30"
+        },
+        {
+          "order": 2,
+          "title": "Video 2",
+          "thumbnail": null,
+          "videoUrl": "https://example.com/video2",
+          "duration": "3:45"
+        },
+        {
+          "order": 3,
+          "title": "Video 3",
+          "thumbnail": null,
+          "videoUrl": "https://example.com/video3",
+          "duration": "1:20"
+        }
+      ]
+    },
+    "testimonial": {
+      "enabled": true,
+      "content": {
+        "title": "Testimonial Title",
+        "text": "This is a testimonial text from a satisfied customer."
+      }
+    },
+    "appStoreButtons": {
+      "enabled": true,
+      "content": [
+        {
+          "order": 1,
+          "buttonId": "app-store",
+          "label": "Download on App Store",
+          "icon": null,
+          "url": "https://apps.apple.com"
+        },
+        {
+          "order": 2,
+          "buttonId": "google-play",
+          "label": "Get it on Google Play",
+          "icon": null,
+          "url": "https://play.google.com"
+        }
+      ]
+    },
+    "faqItems": {
+      "enabled": true,
+      "content": [
+        {
+          "order": 1,
+          "question": "Question 1?",
+          "answer": "Answer to question 1",
+          "isDefaultOpen": false
+        },
+        {
+          "order": 2,
+          "question": "Question 2?",
+          "answer": "Answer to question 2",
+          "isDefaultOpen": false
+        },
+        {
+          "order": 3,
+          "question": "Question 3?",
+          "answer": "Answer to question 3",
+          "isDefaultOpen": false
+        },
+        {
+          "order": 4,
+          "question": "Question 4?",
+          "answer": "Answer to question 4",
+          "isDefaultOpen": false
+        }
+      ]
+    },
+    "footerFeatures": {
+      "enabled": true,
+      "content": [
+        {
+          "text": "Footer Feature 1",
+          "order": 1
+        },
+        {
+          "text": "Footer Feature 2",
+          "order": 2
+        },
+        {
+          "text": "Footer Feature 3",
+          "order": 3
+        },
+        {
+          "text": "Footer Feature 4",
+          "order": 4
+        }
+      ]
+    },
+    "promoBanner": {
+      "enabled": false,
+      "imageUrl": "https://example.com/banner.jpg",
+      "imageAlt": "Promo Banner",
+      "ctaText": "Shop Now",
+      "ctaUrl": "https://example.com",
+      "gradientStartColor": "#f9c921",
+      "gradientEndColor": "#fbc525"
+    },
+    "sipCalculatorConfig": {
+      "enabled": true,
+      "minInvestment": 100,
+      "maxInvestment": 100000,
+      "defaultInvestment": 5000,
+      "minReturnRate": 5,
+      "maxReturnRate": 20,
+      "defaultReturnRate": 12,
+      "minTimePeriod": 1,
+      "maxTimePeriod": 30,
+      "defaultTimePeriod": 10,
+      "historicalCAGR": 23
+    },
+    "cagrConfig": {
+      "enabled": true,
+      "years": 10,
+      "label": "10Y CAGR",
+      "value": 23
+    }
+  }
+}
