@@ -1,0 +1,85 @@
+{
+  "data": {
+    "identifier": "default-csp-config",
+    "subProduct": "common",
+    "partner": "Vodafone",
+    "directives": [
+      {
+        "directive": "default-src",
+        "sources": [
+          "'self'",
+          "https://*.adityabirlacapital.com"
+        ]
+      },
+      {
+        "directive": "script-src",
+        "sources": [
+          "'self'",
+          "'unsafe-inline'",
+          "https://cdnjs.cloudflare.com"
+        ]
+      },
+      {
+        "directive": "style-src",
+        "sources": [
+          "'self'",
+          "'unsafe-inline'",
+          "https://fonts.googleapis.com"
+        ]
+      },
+      {
+        "directive": "img-src",
+        "sources": [
+          "'self'",
+          "data:",
+          "https:",
+          "blob:"
+        ]
+      },
+      {
+        "directive": "font-src",
+        "sources": [
+          "'self'",
+          "https://fonts.gstatic.com"
+        ]
+      },
+      {
+        "directive": "connect-src",
+        "sources": [
+          "'self'",
+          "https://api.adityabirlacapital.com"
+        ]
+      },
+      {
+        "directive": "frame-src",
+        "sources": [
+          "'self'",
+          "https://www.youtube.com",
+          "https://player.vimeo.com"
+        ]
+      },
+      {
+        "directive": "object-src",
+        "sources": [
+          "'none'"
+        ]
+      },
+      {
+        "directive": "base-uri",
+        "sources": [
+          "'self'"
+        ]
+      },
+      {
+        "directive": "form-action",
+        "sources": [
+          "'self'"
+        ]
+      }
+    ],
+    "reportUri": "https://csp-report.adityabirlacapital.com/report",
+    "reportOnly": false,
+    "isActive": true,
+    "description": "Default Content Security Policy configuration for DigiMetal applications"
+  }
+}

@@ -1,117 +1,876 @@
 {
-  "subProduct": "GOLD",
-  "partner": "Vodafone",
-  "sip": {
-    "secondaryLinkText": "Go Back",
-    "collectSipDetails": {
-      "title": "SIP",
-      "submitButtonText": "Proceed to pay",
-      "secondaryLinkText": "How did you learn about us?",
-      "helpAriaLabel": "Help with Gold SIP setup",
-      "frequencySectionTitle": "Select SIP Frequency",
-      "dateSectionTitle": "Select SIP Date",
-      "amountSectionTitle": "Enter SIP Amount",
-      "purposeSectionTitle": "Purpose of Investment",
-      "emailSectionTitle": "Email for Updates",
-      "infoBannerMessage": "Start your gold savings journey with systematic investments",
-      "disclaimerText": "SIP amount will be auto-debited on the selected date. You can pause or cancel anytime.",
-      "expectedReturnLabel": "Expected Annual Returns",
-      "expectedReturnPercentage": 12,
-      "refreshTimeSeconds": 290,
-      "defaultFrequency": "monthly",
-      "defaultDate": 1,
-      "purposes": [
-        { "label": "Wealth Creation", "value": "wealth" },
-        { "label": "Wedding", "value": "wedding" },
-        { "label": "Retirement", "value": "retirement" },
-        { "label": "Child Education", "value": "child_education" },
-        { "label": "Emergency Fund", "value": "emergency" },
-        { "label": "Other", "value": "other" }
-      ],
-      "amountChips": [
-        { "value": 1000, "label": "₹ 1000", "isPopular": false, "order": 1 },
-        { "value": 2000, "label": "₹ 2000", "isPopular": false, "order": 2 },
-        { "value": 5000, "label": "₹ 5000", "isPopular": true, "order": 3 }
-      ],
-      "validationConfig": {
-        "monthlyAmount": { "min": 100, "max": 100000 },
-        "weeklyAmount": { "min": 50, "max": 100000 },
-        "email": { "required": true },
-        "errorMessages": {
-          "amountMinMonthly": "Minimum monthly SIP amount is ₹100",
-          "amountMaxMonthly": "Maximum monthly SIP amount is ₹1,00,000",
-          "amountMinWeekly": "Minimum weekly SIP amount is ₹50",
-          "amountMaxWeekly": "Maximum weekly SIP amount is ₹10,00,000",
-          "emailRequired": "Email is required for SIP updates",
-          "emailInvalid": "Please enter a valid email address"
+  "data": {
+    "subProduct": "gold",
+    "partner": "Vodafone",
+    "buy": {
+      "collectTransactionDetails": {
+        "title": "Buy Gold",
+        "submitButtonText": "Proceed to Pay",
+        "secondaryLinkText": "Go back",
+        "helpAriaLabel": "Get help with gold purchase",
+        "inputSectionTitle": "How much gold do you want to buy?",
+        "infoBannerMessage": "24K 999.9 Pure Gold",
+        "purityBadgeMessage": "999.9",
+        "refreshTimeSeconds": 290,
+        "minAmount": 10,
+        "maxAmount": 500000,
+        "minWeight": 0.001,
+        "maxWeight": 50,
+        "amountChips": {
+          "enabled": true,
+          "content": [
+            {
+              "value": "1000",
+              "label": "₹1,000",
+              "isPopular": false,
+              "order": 1
+            },
+            {
+              "value": "2000",
+              "label": "₹2,000",
+              "isPopular": false,
+              "order": 2
+            },
+            {
+              "value": "5000",
+              "label": "₹5,000",
+              "isPopular": true,
+              "order": 3
+            },
+            {
+              "value": "10000",
+              "label": "₹10,000",
+              "isPopular": false,
+              "order": 4
+            },
+            {
+              "value": "20000",
+              "label": "₹20,000",
+              "isPopular": false,
+              "order": 5
+            }
+          ]
+        },
+        "weightChips": {
+          "enabled": true,
+          "content": [
+            {
+              "value": "1",
+              "label": "1g",
+              "isPopular": false,
+              "order": 1
+            },
+            {
+              "value": "2",
+              "label": "2g",
+              "isPopular": false,
+              "order": 2
+            },
+            {
+              "value": "5",
+              "label": "5g",
+              "isPopular": true,
+              "order": 3
+            },
+            {
+              "value": "10",
+              "label": "10g",
+              "isPopular": false,
+              "order": 4
+            },
+            {
+              "value": "20",
+              "label": "20g",
+              "isPopular": false,
+              "order": 5
+            }
+          ]
         }
       },
-      "assets": {
-        "graphLineImage": "/assets/sip-flow/graphLine.svg",
-        "graphOverlayImage": "/assets/sip-flow/graph.svg",
-        "emptyAmountProjectionImage": "/assets/sip-flow/emptyProjection.png"
+      "panVerification": {
+        "title": "PAN Verification",
+        "submitButtonText": "Verify & Proceed",
+        "secondaryLinkText": "Go back",
+        "helpAriaLabel": "Get help with PAN verification",
+        "panFieldLabel": "PAN Number",
+        "panFieldPlaceholder": "e.g: ABCDE1234Z",
+        "nameFieldLabel": "Name as per PAN",
+        "nameFieldPlaceholder": "Enter name as per PAN",
+        "dobFieldLabel": "Date of Birth",
+        "dobFieldPlaceholder": "DD/MM/YYYY",
+        "noteText": "Your PAN details are required for tax compliance",
+        "termsPreText": "By proceeding, you agree to our",
+        "termsLinkText": "Terms & Conditions",
+        "termsLinkHref": "https://www.adityabirlacapital.com/abc-digital/terms-conditions"
+      },
+      "nameConfirmation": {
+        "title": "Name Confirmation",
+        "submitButtonText": "Confirm & Proceed",
+        "secondaryLinkText": "Go back",
+        "helpAriaLabel": "Get help with name confirmation",
+        "nameFieldLabel": "Name as per PAN",
+        "instructionText": "Please confirm your name matches the PAN records"
+      },
+      "thankYou": {
+        "title": "Gold Purchased!",
+        "submitButtonText": "Go to Dashboard",
+        "secondaryLinkText": "Buy More Gold",
+        "helpAriaLabel": "Get help with purchase confirmation",
+        "heading": "Thank You!",
+        "messagePrefix": "Your gold purchase was successful.",
+        "messageSuffix": "Your gold is now part of your digital portfolio.",
+        "successMessage": "Your gold has been securely stored in your account."
+      },
+      "paymentFailure": {
+        "title": "Payment Failed",
+        "heading": "Uh-Oh!",
+        "description": "We couldn't process your payment. Please try again.",
+        "submitButtonText": "Try Again",
+        "secondaryLinkText": "Go to Dashboard",
+        "helpAriaLabel": "Get help with payment failure"
       }
     },
-    "panVerification": {
-      "title": "PAN Verification",
-      "submitButtonText": "Confirm",
-      "secondaryLinkText": "",
-      "helpAriaLabel": "Get help with PAN verification",
-      "panFieldLabel": "PAN Number",
-      "panFieldPlaceholder": "Enter your PAN",
-      "nameFieldLabel": "Name as per PAN",
-      "nameFieldPlaceholder": "Enter name as per PAN",
-      "dobFieldLabel": "Date of Birth",
-      "dobFieldPlaceholder": "DD/MM/YYYY",
-      "noteText": "Your PAN details are required for tax compliance",
-      "termsPreText": "By proceeding, you agree to our",
-      "termsLinkText": "Terms & Conditions",
-      "termsLinkHref": "https://www.adityabirlacapital.com/abc-digital/terms-conditions"
+    "sell": {
+      "selectRedeemType": {
+        "title": "Sell Gold",
+        "sectionTitle": "How do you want to sell your gold?",
+        "submitButtonText": "Continue",
+        "secondaryLinkText": "Go back",
+        "helpAriaLabel": "Get help with redemption options",
+        "paymentMethods": [
+          {
+            "id": "cash-instantly",
+            "methodId": "cash-instantly",
+            "methodType": "cash",
+            "iconSrc": "/assets/sell-flow/cashInHand.svg",
+            "iconAlt": "Cash in hand",
+            "title": "Cash Instantly",
+            "description": [
+              "Get your money instantly deposited to your bank account.",
+              "A 72-hour cooling period applies before newly purchased gold can be sold"
+            ],
+            "options": [
+              {
+                "iconSrc": "/assets/sell-flow/bank-outline.svg",
+                "iconAlt": "Bank account",
+                "label": ""
+              },
+              {
+                "iconSrc": "/assets/sell-flow/upi.png",
+                "iconAlt": "UPI",
+                "label": "",
+                "size": 32
+              }
+            ]
+          },
+          {
+            "id": "gold-in-hand",
+            "methodId": "gold-in-hand",
+            "methodType": "gold-in-hand",
+            "iconSrc": "/assets/sell-flow/GoldInHand.png",
+            "iconAlt": "Gold in hand",
+            "title": "Gold in-hand",
+            "description": [
+              "24K secured gold coin",
+              "Get gold delivered in 7-8 days",
+              "Gold fractions you bought before 72hrs would be locked for redemption due to security reason"
+            ]
+          }
+        ]
+      },
+      "collectTransactionDetailsSell": {
+        "title": "Sell Gold",
+        "submitButtonText": "Proceed",
+        "secondaryLinkText": "Go back",
+        "helpAriaLabel": "Get help with gold sale",
+        "inputSectionTitle": "How much gold do you want to sell?",
+        "infoBannerMessage": "Sell your gold at live market rates",
+        "minAmount": 10,
+        "maxAmount": 500000,
+        "minWeight": 0.01,
+        "maxWeight": 50,
+        "amountChips": {
+          "enabled": true,
+          "content": [
+            {
+              "value": "1000",
+              "label": "₹1,000",
+              "isPopular": false,
+              "order": 1
+            },
+            {
+              "value": "2000",
+              "label": "₹2,000",
+              "isPopular": false,
+              "order": 2
+            },
+            {
+              "value": "5000",
+              "label": "₹5,000",
+              "isPopular": true,
+              "order": 3
+            },
+            {
+              "value": "10000",
+              "label": "₹10,000",
+              "isPopular": false,
+              "order": 4
+            },
+            {
+              "value": "20000",
+              "label": "₹20,000",
+              "isPopular": false,
+              "order": 5
+            }
+          ]
+        },
+        "weightChips": {
+          "enabled": true,
+          "content": [
+            {
+              "value": "1",
+              "label": "1g",
+              "isPopular": false,
+              "order": 1
+            },
+            {
+              "value": "2",
+              "label": "2g",
+              "isPopular": false,
+              "order": 2
+            },
+            {
+              "value": "5",
+              "label": "5g",
+              "isPopular": true,
+              "order": 3
+            },
+            {
+              "value": "10",
+              "label": "10g",
+              "isPopular": false,
+              "order": 4
+            },
+            {
+              "value": "20",
+              "label": "20g",
+              "isPopular": false,
+              "order": 5
+            }
+          ]
+        },
+        "validationConfig": {
+          "minAmount": 10,
+          "maxAmount": 500000,
+          "minWeight": 0.01,
+          "maxWeight": 50,
+          "errorMessages": {
+            "amountMin": "Minimum sell amount is ₹10",
+            "amountMax": "Maximum sell amount is ₹5,00,000",
+            "weightMin": "Minimum weight is 0.01g",
+            "weightMax": "Maximum weight is 50g"
+          }
+        }
+      },
+      "productListing": {
+        "title": "Redeem Gold",
+        "emptyStateMessage": "No products available for delivery at this time",
+        "lockBannerMessage": "A 72 hour waiting period applies before newly purchased Gold/Silver can be redeemed for physical delivery",
+        "pincodeRequiredError": "Please enter a pincode",
+        "pincodeInvalidError": "Please enter a valid 6-digit pincode",
+        "pincodeNotServiceableError": "Sorry, delivery is not available in this area",
+        "pincodeCheckFailedError": "Failed to check pincode. Please try again.",
+        "pgInfoIcon": "/assets/physical-gold/gold-coins.png"
+      },
+      "productDetails": {
+        "title": "Redeem Gold",
+        "deliveryEstimate": "7-10 days",
+        "outOfStockText": "Out of Stock",
+        "buyNowText": "Buy Now",
+        "enterPincodeText": "Enter Pincode",
+        "safeSecureText": "100% safe and secure",
+        "trustBadges": [
+          {
+            "badgeId": "refinery",
+            "label": "Gold refinery",
+            "logoSrc": "/assets/physical-gold/gold-refinery-logo.png",
+            "logoAlt": "Gold Refinery Logo",
+            "logoWidth": "73px",
+            "logoHeight": "39px"
+          },
+          {
+            "badgeId": "hallmark",
+            "label": "24K Hallmark",
+            "logoSrc": "/assets/physical-gold/bis-hallmark-logo.png",
+            "logoAlt": "BIS Hallmark",
+            "logoWidth": "14px",
+            "logoHeight": "11px"
+          },
+          {
+            "badgeId": "insurance",
+            "label": "Insured by",
+            "logoSrc": "/assets/physical-gold/insurance-logo.png",
+            "logoAlt": "Insurance Logo",
+            "logoWidth": "25px",
+            "logoHeight": "21px"
+          }
+        ],
+        "pincodeRequiredError": "Please enter a pincode to proceed",
+        "pincodeInvalidError": "Please enter a valid 6-digit pincode",
+        "pincodeNotServiceableError": "Sorry, delivery is not available in this area",
+        "pincodeCheckFailedError": "Failed to check pincode. Please try again."
+      },
+      "redeemOrderSummary": {
+        "title": "Redeem Gold",
+        "submitButtonText": "Proceed",
+        "secondaryLinkText": "Go back",
+        "helpAriaLabel": "Get help with redeem order summary",
+        "insufficientBalanceMessage": "You cannot redeem more than your gold savings",
+        "safeAndSecureLabel": "100% safe and secure"
+      },
+      "redeemSelectAddress": {
+        "title": "Redeem Gold",
+        "submitButtonText": "Proceed",
+        "saveButtonText": "Save Address",
+        "secondaryLinkText": "Go back",
+        "helpAriaLabel": "Get help with address selection",
+        "footerNote": "*Your order will be delivered to this address",
+        "securityBadge": "100% safe and secure"
+      },
+      "redeemThankYou": {
+        "title": "Redeem Gold",
+        "heading": "Order Confirmed!",
+        "submitButtonText": "Proceed",
+        "proceedButtonText": "Proceed",
+        "secondaryLinkText": "Go to Dashboard",
+        "helpAriaLabel": "Get help",
+        "orderInitiatedMessage": "Your order has been initiated and will be delivered soon.",
+        "orderBannerMessage": "Don't forget, you can always reinvest with us!",
+        "orderConfirmationTitle": "Order Placed, thank You!",
+        "orderConfirmationFooter": "Order placed, thank you!",
+        "etaPrefix": "Arriving by",
+        "deliveryAddressLabel": "Delivery Address",
+        "successIllustration": null
+      },
+      "paymentDetails": {
+        "title": "Payment Details",
+        "submitButtonText": "Proceed",
+        "secondaryLinkText": "Go back",
+        "helpAriaLabel": "Get help with payment"
+      },
+      "otpVerification": {
+        "title": "Verify OTP",
+        "submitButtonText": "Verify",
+        "secondaryLinkText": "Go back",
+        "helpAriaLabel": "Get help with OTP verification",
+        "instructionText": "Enter the OTP sent to your mobile number",
+        "otpLength": 6
+      },
+      "panVerification": {
+        "title": "PAN Verification",
+        "submitButtonText": "Verify & Proceed",
+        "secondaryLinkText": "Go back",
+        "helpAriaLabel": "Get help with PAN verification",
+        "panFieldLabel": "PAN Number",
+        "panFieldPlaceholder": "e.g: ABCDE1234Z",
+        "nameFieldLabel": "Name as per PAN",
+        "nameFieldPlaceholder": "Enter name as per PAN",
+        "dobFieldLabel": "Date of Birth",
+        "dobFieldPlaceholder": "DD/MM/YYYY",
+        "noteText": "Your PAN details are required for tax compliance",
+        "termsPreText": "By proceeding, you agree to our",
+        "termsLinkText": "Terms & Conditions",
+        "termsLinkHref": "https://www.adityabirlacapital.com/abc-digital/terms-conditions"
+      },
+      "nameConfirmation": {
+        "title": "Name Confirmation",
+        "submitButtonText": "Confirm & Proceed",
+        "secondaryLinkText": "Go back",
+        "helpAriaLabel": "Get help with name confirmation",
+        "nameFieldLabel": "Name as per PAN",
+        "instructionText": "Please confirm your name matches the PAN records"
+      },
+      "reviewTransaction": {
+        "title": "Review Transaction",
+        "submitButtonText": "Confirm Sale",
+        "secondaryLinkText": "Go back",
+        "helpAriaLabel": "Get help with transaction review"
+      },
+      "thankYouSell": {
+        "title": "Gold Sold!",
+        "submitButtonText": "Go to Dashboard",
+        "secondaryLinkText": "Sell More Gold",
+        "helpAriaLabel": "Get help with sale confirmation",
+        "heading": "Thank You!",
+        "messagePrefix": "Your gold has been sold successfully.",
+        "messageSuffix": "Funds will be credited to your account within 24 hours.",
+        "successMessage": "Your gold sale was successful. The proceeds will be credited to your registered bank account."
+      },
+      "paymentFailure": {
+        "title": "Payment Failed",
+        "heading": "Uh-Oh!",
+        "description": "We couldn't process your payment. Please try again.",
+        "submitButtonText": "Try Again",
+        "secondaryLinkText": "Go to Dashboard",
+        "helpAriaLabel": "Get help with payment failure"
+      }
     },
-    "nameConfirmation": {
-      "title": "Name Confirmation",
-      "submitButtonText": "Confirm & Continue",
-      "secondaryLinkText": "Go back",
-      "helpAriaLabel": "Get help with name confirmation",
-      "nameFieldLabel": "Name as per PAN",
-      "instructionText": "Please confirm your name matches the PAN records"
+    "gift": {
+      "selectRedeemType": {
+        "title": "Gift Gold",
+        "sectionTitle": "How do you want to gift gold?",
+        "submitButtonText": "Continue",
+        "secondaryLinkText": "Go back",
+        "helpAriaLabel": "Get help with gifting options",
+        "paymentMethods": [
+          {
+            "id": "gold-in-hand",
+            "methodId": "gold-in-hand",
+            "methodType": "gold-in-hand",
+            "iconSrc": "/assets/sell-flow/GoldInHand.png",
+            "iconAlt": "Gold in hand",
+            "title": "Gold in-hand",
+            "description": [
+              "24K secured gold coin",
+              "Gold delivered to your loved one in 7-8 days"
+            ]
+          }
+        ]
+      },
+      "collectGiftDetails": {
+        "title": "Gift Gold",
+        "submitButtonText": "Proceed",
+        "helpAriaLabel": "Get help with gifting gold",
+        "holdingsLabel": "Your Holdings",
+        "inputSectionTitle": "How much gold do you want to gift",
+        "minAmount": 10,
+        "maxAmount": 100000,
+        "minWeight": 0.01,
+        "maxWeight": 100,
+        "amountChips": {
+          "enabled": true,
+          "content": [
+            {
+              "value": "1000",
+              "label": "₹1,000",
+              "isPopular": false,
+              "order": 1
+            },
+            {
+              "value": "2000",
+              "label": "₹2,000",
+              "isPopular": false,
+              "order": 2
+            },
+            {
+              "value": "5000",
+              "label": "₹5,000",
+              "isPopular": true,
+              "order": 3
+            },
+            {
+              "value": "10000",
+              "label": "₹10,000",
+              "isPopular": false,
+              "order": 4
+            },
+            {
+              "value": "20000",
+              "label": "₹20,000",
+              "isPopular": false,
+              "order": 5
+            }
+          ]
+        },
+        "weightChips": {
+          "enabled": true,
+          "content": [
+            {
+              "value": "0.5",
+              "label": "0.5g",
+              "isPopular": false,
+              "order": 1
+            },
+            {
+              "value": "1",
+              "label": "1g",
+              "isPopular": true,
+              "order": 2
+            },
+            {
+              "value": "2",
+              "label": "2g",
+              "isPopular": false,
+              "order": 3
+            },
+            {
+              "value": "5",
+              "label": "5g",
+              "isPopular": false,
+              "order": 4
+            },
+            {
+              "value": "10",
+              "label": "10g",
+              "isPopular": false,
+              "order": 5
+            }
+          ]
+        }
+      },
+      "collectTransactionDetailsGift": {
+        "title": "Gift Gold",
+        "submitButtonText": "Proceed to Pay",
+        "secondaryLinkText": "Go back",
+        "helpAriaLabel": "Get help with gold gifting",
+        "inputSectionTitle": "How much gold do you want to gift?",
+        "infoBannerMessage": "24K 999.9 Pure Gold",
+        "purityBadgeMessage": "999.9",
+        "minAmount": 10,
+        "maxAmount": 500000,
+        "minWeight": 0.001,
+        "maxWeight": 50,
+        "amountChips": {
+          "enabled": true,
+          "content": [
+            {
+              "value": "1000",
+              "label": "₹1,000",
+              "isPopular": false,
+              "order": 1
+            },
+            {
+              "value": "2000",
+              "label": "₹2,000",
+              "isPopular": false,
+              "order": 2
+            },
+            {
+              "value": "5000",
+              "label": "₹5,000",
+              "isPopular": true,
+              "order": 3
+            },
+            {
+              "value": "10000",
+              "label": "₹10,000",
+              "isPopular": false,
+              "order": 4
+            },
+            {
+              "value": "20000",
+              "label": "₹20,000",
+              "isPopular": false,
+              "order": 5
+            }
+          ]
+        },
+        "weightChips": {
+          "enabled": true,
+          "content": [
+            {
+              "value": "1",
+              "label": "1g",
+              "isPopular": false,
+              "order": 1
+            },
+            {
+              "value": "2",
+              "label": "2g",
+              "isPopular": false,
+              "order": 2
+            },
+            {
+              "value": "5",
+              "label": "5g",
+              "isPopular": true,
+              "order": 3
+            },
+            {
+              "value": "10",
+              "label": "10g",
+              "isPopular": false,
+              "order": 4
+            },
+            {
+              "value": "20",
+              "label": "20g",
+              "isPopular": false,
+              "order": 5
+            }
+          ]
+        }
+      },
+      "recipientDetails": {
+        "title": "Recipient Details",
+        "submitButtonText": "Proceed to Order",
+        "helpAriaLabel": "Get help with recipient details",
+        "receiverNameLabel": "Receiver's Name",
+        "receiverNamePlaceholder": "Enter receiver name",
+        "receiverMobileLabel": "Receiver's Mobile",
+        "receiverMobilePlaceholder": "Enter receiver mobile number",
+        "noteLabel": "Note",
+        "notePlaceholder": "Sending you wishes to brighten up your day!",
+        "maxNoteLength": 200,
+        "giftCardLabel": "Choose Gift card",
+        "scheduleLabel": "Schedule for later"
+      },
+      "giftTransactionSummary": {
+        "title": "Gift Summary",
+        "submitButtonText": "Proceed",
+        "helpAriaLabel": "Get help with gift summary",
+        "showHelpIcon": true,
+        "giftQuantityLabel": "Gift Quantity",
+        "purchaseAmountLabel": "Purchase Amount",
+        "gstLabel": "GST (3%)",
+        "toPayLabel": "To Pay",
+        "receiverDetailsTitle": "Receiver Details",
+        "paymentSummaryTitle": "Payment summary",
+        "infoBannerText": "Credit card payments are not allowed for digital gold purchase as per regulations",
+        "secondaryInfoText": ""
+      },
+      "paymentDetails": {
+        "title": "Payment Details",
+        "submitButtonText": "Proceed",
+        "secondaryLinkText": "Go back",
+        "helpAriaLabel": "Get help with payment"
+      },
+      "otpVerification": {
+        "title": "Verify OTP",
+        "submitButtonText": "Verify",
+        "secondaryLinkText": "Go back",
+        "helpAriaLabel": "Get help with OTP verification",
+        "instructionText": "Enter the OTP sent to your mobile number",
+        "otpLength": 6
+      },
+      "giftOtpVerification": {
+        "title": "Verify OTP",
+        "submitButtonText": "Verify",
+        "helpAriaLabel": "Get help with OTP verification",
+        "otpLabel": "Enter OTP",
+        "resendText": "Resend OTP",
+        "resendCountdown": 30
+      },
+      "panVerification": {
+        "title": "PAN Verification",
+        "submitButtonText": "Verify & Proceed",
+        "secondaryLinkText": "Go back",
+        "helpAriaLabel": "Get help with PAN verification",
+        "panFieldLabel": "PAN Number",
+        "panFieldPlaceholder": "e.g: ABCDE1234Z",
+        "nameFieldLabel": "Name as per PAN",
+        "nameFieldPlaceholder": "Enter name as per PAN",
+        "dobFieldLabel": "Date of Birth",
+        "dobFieldPlaceholder": "DD/MM/YYYY",
+        "noteText": "Your PAN details are required for tax compliance",
+        "termsPreText": "By proceeding, you agree to our",
+        "termsLinkText": "Terms & Conditions",
+        "termsLinkHref": "https://www.adityabirlacapital.com/abc-digital/terms-conditions"
+      },
+      "nameConfirmation": {
+        "title": "Name Confirmation",
+        "submitButtonText": "Confirm & Proceed",
+        "secondaryLinkText": "Go back",
+        "helpAriaLabel": "Get help with name confirmation",
+        "nameFieldLabel": "Name as per PAN",
+        "instructionText": "Please confirm your name matches the PAN records"
+      },
+      "reviewTransaction": {
+        "title": "Review Transaction",
+        "submitButtonText": "Confirm Gift",
+        "secondaryLinkText": "Go back",
+        "helpAriaLabel": "Get help with transaction review"
+      },
+      "thankYou": {
+        "title": "Thank You!",
+        "submitButtonText": "Go to Dashboard",
+        "secondaryLinkText": "Gift More Gold",
+        "helpAriaLabel": "Get help with confirmation",
+        "heading": "Thank You!",
+        "messagePrefix": "Your gold gift has been processed.",
+        "messageSuffix": "The recipient will be notified.",
+        "successMessage": "Your gold has been successfully gifted. The recipient will receive a notification."
+      },
+      "giftSuccess": {
+        "title": "Gift Sent",
+        "heading": "We've sent your lovely gift!",
+        "submitButtonText": "Go to Homepage",
+        "helpAriaLabel": "Get help",
+        "disclaimerText": "The end recipient must accept the gift within 5 days, the gold units will be reversed back to the sender's account",
+        "instructionsLinkText": "how to receive it",
+        "copyLabel": "Copy",
+        "shareLabel": "Share",
+        "whatsappLabel": "WhatsApp",
+        "homepageLabel": "Homepage"
+      },
+      "paymentFailure": {
+        "title": "Payment Failed",
+        "heading": "Uh-Oh!",
+        "description": "We couldn't process your payment. Please try again.",
+        "submitButtonText": "Try Again",
+        "secondaryLinkText": "Go to Dashboard",
+        "helpAriaLabel": "Get help with payment failure"
+      }
     },
-    "transactionSummary": {
-      "title": "SIP",
-      "submitButtonText": "Start SIP",
-      "helpAriaLabel": "Get help with SIP summary",
-      "summaryTitle": "Summary of your one-time investment",
+    "sip": {
       "secondaryLinkText": "Go Back",
-      "totalLabel": "Total Amount",
-      "gstLabel": "GST",
-      "goldAmountLabel": "Gold Amount",
-      "termsPreText": "By clicking on Proceed you are agreeing to",
-      "termsLinkText": "Aditya Birla Capital Digital Terms & Conditions",
-      "termsLinkHref": "https://www.adityabirlacapital.com/abc-digital/terms-conditions",
-      "infoBannerMessage": "The mandate amount is the maximum limit that ABCD can debit from your bank account, for seamless future SIP payments."
-    },
-    "thankYou": {
-      "title": "SIP Created Successfully!",
-      "submitButtonText": "View SIP",
-      "secondaryLinkText": "Create Another SIP",
-      "helpAriaLabel": "Help with SIP confirmation",
-      "heading": "Thank You!",
-      "messagePrefix": "Your SIP has been set up successfully.",
-      "messageSuffix": "We will send you a confirmation email shortly.",
-      "successMessage": "Your Gold SIP has been set up successfully. The first installment will be debited on the selected date.",
-      "sipSummaryTitle": "SIP Summary",
-      "downloadAppPromo": {
-        "playStoreUrl": "https://play.google.com/store/apps/details?id=com.abcd.digimetal",
-        "appStoreUrl": "https://apps.apple.com/app/abcd-digimetal/id123456789"
+      "collectSipDetails": {
+        "title": "SIP",
+        "submitButtonText": "Proceed to pay",
+        "secondaryLinkText": "How did you learn about us?",
+        "helpAriaLabel": "Help with Gold SIP setup",
+        "frequencySectionTitle": "Select SIP Frequency",
+        "dateSectionTitle": "Select SIP Date",
+        "amountSectionTitle": "Enter SIP Amount",
+        "purposeSectionTitle": "Purpose of Investment",
+        "emailSectionTitle": "Email for Updates",
+        "infoBannerMessage": "Start your gold savings journey with systematic investments",
+        "disclaimerText": "SIP amount will be auto-debited on the selected date. You can pause or cancel anytime.",
+        "expectedReturnLabel": "Expected Annual Returns",
+        "expectedReturnPercentage": 12,
+        "refreshTimeSeconds": 290,
+        "defaultFrequency": "monthly",
+        "defaultDate": 1,
+        "purposes": [
+          {
+            "label": "Wealth Creation",
+            "value": "wealth"
+          },
+          {
+            "label": "Wedding",
+            "value": "wedding"
+          },
+          {
+            "label": "Retirement",
+            "value": "retirement"
+          },
+          {
+            "label": "Child Education",
+            "value": "child_education"
+          },
+          {
+            "label": "Emergency Fund",
+            "value": "emergency"
+          },
+          {
+            "label": "Other",
+            "value": "other"
+          }
+        ],
+        "amountChips": [
+          {
+            "value": 1000,
+            "label": "₹ 1000",
+            "isPopular": false,
+            "order": 1
+          },
+          {
+            "value": 2000,
+            "label": "₹ 2000",
+            "isPopular": false,
+            "order": 2
+          },
+          {
+            "value": 5000,
+            "label": "₹ 5000",
+            "isPopular": true,
+            "order": 3
+          }
+        ],
+        "validationConfig": {
+          "monthlyAmount": {
+            "min": 100,
+            "max": 100000
+          },
+          "weeklyAmount": {
+            "min": 50,
+            "max": 100000
+          },
+          "email": {
+            "required": true
+          },
+          "errorMessages": {
+            "amountMinMonthly": "Minimum monthly SIP amount is ₹100",
+            "amountMaxMonthly": "Maximum monthly SIP amount is ₹1,00,000",
+            "amountMinWeekly": "Minimum weekly SIP amount is ₹50",
+            "amountMaxWeekly": "Maximum weekly SIP amount is ₹10,00,000",
+            "emailRequired": "Email is required for SIP updates",
+            "emailInvalid": "Please enter a valid email address"
+          }
+        },
+        "assets": {
+          "graphLineImage": "/assets/sip-flow/graphLine.svg",
+          "graphOverlayImage": "/assets/sip-flow/graph.svg",
+          "emptyAmountProjectionImage": "/assets/sip-flow/emptyProjection.png"
+        }
+      },
+      "panVerification": {
+        "title": "PAN Verification",
+        "submitButtonText": "Confirm",
+        "secondaryLinkText": "",
+        "helpAriaLabel": "Get help with PAN verification",
+        "panFieldLabel": "PAN Number",
+        "panFieldPlaceholder": "Enter your PAN",
+        "nameFieldLabel": "Name as per PAN",
+        "nameFieldPlaceholder": "Enter name as per PAN",
+        "dobFieldLabel": "Date of Birth",
+        "dobFieldPlaceholder": "DD/MM/YYYY",
+        "noteText": "Your PAN details are required for tax compliance",
+        "termsPreText": "By proceeding, you agree to our",
+        "termsLinkText": "Terms & Conditions",
+        "termsLinkHref": "https://www.adityabirlacapital.com/abc-digital/terms-conditions"
+      },
+      "nameConfirmation": {
+        "title": "Name Confirmation",
+        "submitButtonText": "Confirm & Continue",
+        "secondaryLinkText": "Go back",
+        "helpAriaLabel": "Get help with name confirmation",
+        "nameFieldLabel": "Name as per PAN",
+        "instructionText": "Please confirm your name matches the PAN records"
+      },
+      "transactionSummary": {
+        "title": "SIP",
+        "submitButtonText": "Start SIP",
+        "helpAriaLabel": "Get help with SIP summary",
+        "summaryTitle": "Summary of your one-time investment",
+        "secondaryLinkText": "Go Back",
+        "totalLabel": "Total Amount",
+        "gstLabel": "GST",
+        "goldAmountLabel": "Gold Amount",
+        "termsPreText": "By clicking on Proceed you are agreeing to",
+        "termsLinkText": "Aditya Birla Capital Digital Terms & Conditions",
+        "termsLinkHref": "https://www.adityabirlacapital.com/abc-digital/terms-conditions",
+        "infoBannerMessage": "The mandate amount is the maximum limit that ABCD can debit from your bank account, for seamless future SIP payments."
+      },
+      "thankYou": {
+        "title": "SIP Created Successfully!",
+        "submitButtonText": "View SIP",
+        "secondaryLinkText": "Create Another SIP",
+        "helpAriaLabel": "Help with SIP confirmation",
+        "heading": "Thank You!",
+        "messagePrefix": "Your SIP has been set up successfully.",
+        "messageSuffix": "We will send you a confirmation email shortly.",
+        "successMessage": "Your Gold SIP has been set up successfully. The first installment will be debited on the selected date.",
+        "sipSummaryTitle": "SIP Summary",
+        "downloadAppPromo": {
+          "playStoreUrl": "https://play.google.com/store/apps/details?id=com.abcd.digimetal",
+          "appStoreUrl": "https://apps.apple.com/app/abcd-digimetal/id123456789"
+        }
+      },
+      "paymentFailure": {
+        "title": "SIP Payment Failed",
+        "heading": "Uh-Oh!",
+        "description": "Your SIP mandate registration could not be completed. Please try again.",
+        "submitButtonText": "Go to Dashboard",
+        "secondaryLinkText": "Try Again",
+        "helpAriaLabel": "Get help with failed SIP payment"
       }
     },
-    "paymentFailure": {
-      "title": "SIP Payment Failed",
-      "heading": "Uh-Oh!",
-      "description": "Your SIP mandate registration could not be completed. Please try again.",
-      "submitButtonText": "Go to Dashboard",
-      "secondaryLinkText": "Try Again",
-      "helpAriaLabel": "Get help with failed SIP payment"
+    "assets": {
+      "successIllustration": null,
+      "failureIllustration": null,
+      "promoBannerLogo": null,
+      "promoBannerQrCode": null
     }
   }
 }

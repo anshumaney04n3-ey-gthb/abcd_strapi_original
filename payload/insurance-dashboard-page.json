@@ -1,0 +1,335 @@
+{
+  "data": {
+    "subProduct": "motor",
+    "partner": "Vodafone",
+    "sectionTitleComparison": "Compare Insurance Plans",
+    "sectionSubtitleVideos": "Expert Guidance Videos",
+    "sectionTitleReferral": "Refer & Save",
+    "livePriceDisclaimer": "Premium rates updated regularly",
+    "footerReferenceHeading": "Powered by",
+    "footerReferenceName": "ABCD Insurance",
+    "footerReferenceCertification": "Trusted by millions of customers",
+    "heroImagePath": "/assets/images/insurance-hero-bg.png",
+    "patternImagePath": "/assets/images/insurance-pattern.png",
+    "maskImagePath": "/assets/images/insurance-mask.png",
+    "transactionsEmptyImagePath": "/assets/images/insurance-no-transactions.png",
+    "mmtcLogoPath": "/assets/images/insurance-mmtc-logo.png",
+    "footerBarsImagePath": "/assets/images/insurance-footer-pattern.png",
+    "headerLogoAlt": "ABCD Logo",
+    "footerLogoAlt": "ABCD Logo",
+    "aiPoweredBadgeJourneyEnabled": true,
+    "actionCards": {
+      "enabled": true,
+      "content": [
+        {
+          "id": "buy-insurance",
+          "title": "Buy Insurance",
+          "subtitle": "Get comprehensive coverage",
+          "icon": null,
+          "ctaText": "Explore Plans",
+          "ctaLink": "/insurance/buy"
+        },
+        {
+          "id": "renew-policy",
+          "title": "Renew Policy",
+          "subtitle": "Quick and easy renewal",
+          "icon": null,
+          "ctaText": "Renew Now",
+          "ctaLink": "/insurance/renew"
+        },
+        {
+          "id": "claims",
+          "title": "Claims",
+          "subtitle": "Track your claims",
+          "icon": null,
+          "ctaText": "File Claim",
+          "ctaLink": "/insurance/claims"
+        }
+      ]
+    },
+    "comparisonColumns": {
+      "enabled": true,
+      "content": [
+        {
+          "order": 1,
+          "columnId": "col-1",
+          "title": "Basic Plan",
+          "isHighlighted": false
+        },
+        {
+          "order": 2,
+          "columnId": "col-2",
+          "title": "Standard Plan",
+          "isHighlighted": true
+        },
+        {
+          "order": 3,
+          "columnId": "col-3",
+          "title": "Premium Plan",
+          "isHighlighted": false
+        }
+      ]
+    },
+    "comparisonRows": {
+      "enabled": true,
+      "content": [
+        {
+          "order": 1,
+          "rowId": "row-1",
+          "label": "Coverage",
+          "values": [
+            "₹5 Lakh",
+            "₹10 Lakh",
+            "₹25 Lakh"
+          ]
+        },
+        {
+          "order": 2,
+          "rowId": "row-2",
+          "label": "Premium",
+          "values": [
+            "₹2,000",
+            "₹3,500",
+            "₹5,000"
+          ]
+        },
+        {
+          "order": 3,
+          "rowId": "row-3",
+          "label": "Cashless Garages",
+          "values": [
+            "100",
+            "500",
+            "1000"
+          ]
+        }
+      ]
+    },
+    "footerFeatures": {
+      "enabled": true,
+      "content": [
+        {
+          "text": "24/7 Customer Support",
+          "order": 1
+        },
+        {
+          "text": "Quick Claim Settlement",
+          "order": 2
+        },
+        {
+          "text": "Secure Online Payment",
+          "order": 3
+        },
+        {
+          "text": "No Hidden Charges",
+          "order": 4
+        }
+      ]
+    },
+    "sidebarFAQs": {
+      "enabled": true,
+      "content": [
+        {
+          "order": 1,
+          "question": "What is covered?",
+          "answer": "Comprehensive coverage for damages and theft."
+        },
+        {
+          "order": 2,
+          "question": "How to file a claim?",
+          "answer": "File claim through our app or website."
+        },
+        {
+          "order": 3,
+          "question": "What is the waiting period?",
+          "answer": "30 days for most claims."
+        }
+      ]
+    },
+    "videos": {
+      "enabled": true,
+      "content": [
+        {
+          "order": 1,
+          "title": "How to Buy Insurance",
+          "thumbnail": null,
+          "videoUrl": "https://example.com/video1",
+          "duration": "2:30"
+        },
+        {
+          "order": 2,
+          "title": "Understanding Coverage",
+          "thumbnail": null,
+          "videoUrl": "https://example.com/video2",
+          "duration": "3:15"
+        }
+      ]
+    },
+    "promoBanners": {
+      "enabled": true,
+      "content": [
+        {
+          "order": 1,
+          "bannerId": "banner-1",
+          "title": "Get 10% Off",
+          "description": "On annual policies",
+          "ctaText": "Know More",
+          "ctaLink": "/offer",
+          "backgroundColor": "#FF5722"
+        }
+      ]
+    },
+    "keyHighlightsConfig": {
+      "enabled": true,
+      "title": "Key Highlights"
+    },
+    "transactionsEmptyStateConfig": {
+      "enabled": true,
+      "title": "No Transactions",
+      "subtitle": "Your insurance transactions will appear here"
+    },
+    "referralBannerAssets": {
+      "enabled": true,
+      "title": "Refer a Friend",
+      "subtitle": "Earn rewards on every referral"
+    },
+    "userSidebarAssets": {
+      "enabled": true,
+      "profilePlaceholder": "/assets/images/profile-placeholder.png",
+      "editIcon": "/assets/images/edit-icon.png"
+    },
+    "globalDisclaimer": {
+      "enabled": true,
+      "text": "Premium rates are subject to change. Please verify with the insurer."
+    },
+    "exploreItems": {
+      "enabled": true,
+      "content": [
+        {
+          "order": 1,
+          "title": "Car Insurance",
+          "icon": null,
+          "link": "/insurance/car"
+        },
+        {
+          "order": 2,
+          "title": "Bike Insurance",
+          "icon": null,
+          "link": "/insurance/bike"
+        },
+        {
+          "order": 3,
+          "title": "Travel Insurance",
+          "icon": null,
+          "link": "/insurance/travel"
+        }
+      ]
+    },
+    "partners": {
+      "enabled": true,
+      "content": [
+        {
+          "order": 1,
+          "name": "ICICI Lombard",
+          "logoUrl": null,
+          "highlighted": true
+        },
+        {
+          "order": 2,
+          "name": "HDFC ERGO",
+          "logoUrl": null,
+          "highlighted": false
+        },
+        {
+          "order": 3,
+          "name": "Bajaj Allianz",
+          "logoUrl": null,
+          "highlighted": false
+        }
+      ]
+    },
+    "partnerTrustItems": {
+      "enabled": true,
+      "content": [
+        {
+          "order": 1,
+          "title": "RBI Approved",
+          "iconUrl": null
+        },
+        {
+          "order": 2,
+          "title": "ISO Certified",
+          "iconUrl": null
+        },
+        {
+          "order": 3,
+          "title": "10M+ Customers",
+          "iconUrl": null
+        }
+      ]
+    },
+    "crossSell": {
+      "enabled": true,
+      "title": "Explore More",
+      "content": [
+        {
+          "order": 1,
+          "productName": "Health Insurance",
+          "ctaText": "Explore",
+          "ctaLink": "/health"
+        },
+        {
+          "order": 2,
+          "productName": "Life Insurance",
+          "ctaText": "Explore",
+          "ctaLink": "/life"
+        }
+      ]
+    },
+    "keyHighlights": {
+      "enabled": true,
+      "content": [
+        {
+          "order": 1,
+          "title": "Instant Policy",
+          "description": "Get policy within minutes"
+        },
+        {
+          "order": 2,
+          "title": "Claim Support",
+          "description": "Dedicated claim assistance"
+        },
+        {
+          "order": 3,
+          "title": "Best Prices",
+          "description": "Compare and save"
+        }
+      ]
+    },
+    "navigation": {
+      "enabled": true,
+      "items": [
+        {
+          "label": "Home",
+          "link": "/insurance",
+          "icon": null
+        },
+        {
+          "label": "Buy",
+          "link": "/insurance/buy",
+          "icon": null
+        },
+        {
+          "label": "Renew",
+          "link": "/insurance/renew",
+          "icon": null
+        },
+        {
+          "label": "Claims",
+          "link": "/insurance/claims",
+          "icon": null
+        }
+      ]
+    }
+  }
+}
