@@ -20,7 +20,9 @@ docker stop abc_dost_mysql abc_dost_python abc_dost_redis && docker rm abc_dost_
 
 -----------------------------------------------------------------------------------------------
 
-rm -rf build dist/ .strapi .strapi-updater.json node_modules/ .cache && sleep 5 && echo "Waiting 5 seconds" && nvm use 20 && sleep 5 && echo "Waiting 5 seconds" && npm i && sleep 5 && echo "Waiting 5 seconds" && npm run develop
+rm -rf build dist/ .strapi 
+.strapi-updater.json node_modules/ .cache && sleep 10 && echo "Waiting 10 seconds" && nvm use 20 && sleep 10 && echo "Waiting 10 seco
+nds" && npm i && sleep 10 && echo "Waiting 10 seconds" && npm run develop
 
 npm install @strapi/plugin-documentation@5.1.0 -E
 
