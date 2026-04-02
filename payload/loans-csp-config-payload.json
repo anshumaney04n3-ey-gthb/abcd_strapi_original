@@ -1,0 +1,12 @@
+{
+  "data": {
+    "identifier": "default-config",
+    "subProduct": "common",
+    "partner": "default",
+    "directives": [],
+    "reportUri": "https://example.com/csp-report",
+    "reportOnly": false,
+    "isActive": true,
+    "description": "Default CSP configuration for Loans products"
+  }
+}
