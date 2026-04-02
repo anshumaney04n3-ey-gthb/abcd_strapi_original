@@ -309,6 +309,72 @@ GOLD_DEFAULT_JSON='{
             "messagePrefix": "You just sold",
             "messageSuffix": "of 999.9 Gold"
         },
+,
+        "productListing": {
+            "title": "Redeem Gold",
+            "emptyStateMessage": "No products available for delivery at this time",
+            "lockBanner": {
+                "message": "A 72 hour waiting period applies before newly purchased Gold/Silver can be redeemed for physical delivery"
+            },
+            "errors": {
+                "pincodeRequired": "Please enter a pincode",
+                "pincodeInvalid": "Please enter a valid 6-digit pincode",
+                "pincodeNotServiceable": "Sorry, delivery is not available in this area",
+                "pincodeCheckFailed": "Failed to check pincode. Please try again."
+            },
+            "pgInfoIcon": "/assets/physical-gold/gold-coins.png"
+        },
+        "productDetails": {
+            "title": "Redeem Gold",
+            "deliveryEstimate": "7-10 days",
+            "outOfStockText": "Out of Stock",
+            "buyNowText": "Buy Now",
+            "enterPincodeText": "Enter Pincode",
+            "safeSecureText": "100% safe and secure",
+            "trustBadges": [
+                { "badgeId": "refinery", "label": "Gold refinery", "logoSrc": "/assets/physical-gold/gold-refinery-logo.png", "logoAlt": "Gold Refinery Logo", "logoWidth": "73px", "logoHeight": "39px" },
+                { "badgeId": "hallmark", "label": "24K Hallmark", "logoSrc": "/assets/physical-gold/bis-hallmark-logo.png", "logoAlt": "BIS Hallmark", "logoWidth": "14px", "logoHeight": "11px" },
+                { "badgeId": "insurance", "label": "Insured by", "logoSrc": "/assets/physical-gold/insurance-logo.png", "logoAlt": "Insurance Logo", "logoWidth": "25px", "logoHeight": "21px" }
+            ],
+            "errors": {
+                "pincodeRequired": "Please enter a pincode to proceed",
+                "pincodeInvalid": "Please enter a valid 6-digit pincode",
+                "pincodeNotServiceable": "Sorry, delivery is not available in this area",
+                "pincodeCheckFailed": "Failed to check pincode. Please try again."
+            }
+        },
+        "redeemOrderSummary": {
+            "title": "Redeem Gold",
+            "submitButtonText": "Proceed",
+            "secondaryLinkText": "Go back",
+            "helpAriaLabel": "Get help with redeem order summary",
+            "insufficientBalanceMessage": "You cannot redeem more than your gold savings",
+            "safeAndSecureLabel": "100% safe and secure"
+        },
+        "redeemSelectAddress": {
+            "title": "Redeem Gold",
+            "submitButtonText": "Proceed",
+            "saveButtonText": "Save Address",
+            "secondaryLinkText": "Go back",
+            "helpAriaLabel": "Get help with address selection",
+            "footerNote": "*Your order will be delivered to this address",
+            "securityBadge": "100% safe and secure"
+        },
+        "redeemThankYou": {
+            "title": "Redeem Gold",
+            "heading": "Order Confirmed!",
+            "submitButtonText": "Proceed",
+            "proceedButtonText": "Proceed",
+            "secondaryLinkText": "Go to Dashboard",
+            "helpAriaLabel": "Get help",
+            "orderInitiatedMessage": "Your order has been initiated and will be delivered soon.",
+            "orderBannerMessage": "Don't forget, you can always reinvest with us!",
+            "orderConfirmationTitle": "Order Placed, thank You!",
+            "orderConfirmationFooter": "Order placed, thank you!",
+            "etaPrefix": "Arriving by",
+            "deliveryAddressLabel": "Delivery Address",
+            "successIllustration": null
+        },
         "paymentFailure": {
             "title": "Payment Failed",
             "submitButtonText": "Try Again",
@@ -443,6 +509,86 @@ GOLD_DEFAULT_JSON='{
                 "enabled": true,
                 "content": [
                     { "order": 1, "value": "500", "isPopular": false },
+,
+        "collectGiftDetails": {
+            "title": "Gift Gold",
+            "submitButtonText": "Proceed",
+            "helpAriaLabel": "Get help with gifting gold",
+            "holdingsLabel": "Your Holdings",
+            "inputSectionTitle": "How much gold do you want to gift",
+            "minAmount": 10,
+            "maxAmount": 100000,
+            "minWeight": 0.01,
+            "maxWeight": 100,
+            "amountChips": {
+                "enabled": true,
+                "content": [
+                    { "order": 1, "value": "1000" },
+                    { "order": 2, "value": "2000" },
+                    { "order": 3, "value": "5000", "isPopular": true },
+                    { "order": 4, "value": "10000" },
+                    { "order": 5, "value": "20000" }
+                ]
+            },
+            "weightChips": {
+                "enabled": true,
+                "content": [
+                    { "order": 1, "value": "0.5" },
+                    { "order": 2, "value": "1", "isPopular": true },
+                    { "order": 3, "value": "2" },
+                    { "order": 4, "value": "5" },
+                    { "order": 5, "value": "10" }
+                ]
+            }
+        },
+        "recipientDetails": {
+            "title": "Recipient Details",
+            "submitButtonText": "Proceed to Order",
+            "helpAriaLabel": "Get help with recipient details",
+            "receiverNameLabel": "Receiver's Name",
+            "receiverNamePlaceholder": "Enter receiver name",
+            "receiverMobileLabel": "Receiver's Mobile",
+            "receiverMobilePlaceholder": "Enter receiver mobile number",
+            "noteLabel": "Note",
+            "notePlaceholder": "Sending you wishes to brighten up your day!",
+            "maxNoteLength": 200,
+            "giftCardLabel": "Choose Gift card",
+            "scheduleLabel": "Schedule for later"
+        },
+        "giftTransactionSummary": {
+            "title": "Gift Summary",
+            "submitButtonText": "Proceed",
+            "helpAriaLabel": "Get help with gift summary",
+            "showHelpIcon": true,
+            "giftQuantityLabel": "Gift Quantity",
+            "purchaseAmountLabel": "Purchase Amount",
+            "gstLabel": "GST (3%)",
+            "toPayLabel": "To Pay",
+            "receiverDetailsTitle": "Receiver Details",
+            "paymentSummaryTitle": "Payment summary",
+            "infoBannerText": "Credit card payments are not allowed for digital gold purchase as per regulations",
+            "secondaryInfoText": ""
+        },
+        "giftOtpVerification": {
+            "title": "Verify OTP",
+            "submitButtonText": "Verify",
+            "helpAriaLabel": "Get help with OTP verification",
+            "otpLabel": "Enter OTP",
+            "resendText": "Resend OTP",
+            "resendCountdown": 30
+        },
+        "giftSuccess": {
+            "title": "Gift Sent",
+            "heading": "We've sent your lovely gift!",
+            "submitButtonText": "Go to Homepage",
+            "helpAriaLabel": "Get help",
+            "disclaimerText": "The end recipient must accept the gift within 5 days, the gold units will be reversed back to the sender's account",
+            "instructionsLinkText": "how to receive it",
+            "copyLabel": "Copy",
+            "shareLabel": "Share",
+            "whatsappLabel": "WhatsApp",
+            "homepageLabel": "Homepage"
+        },
                     { "order": 2, "value": "1000", "isPopular": true },
                     { "order": 3, "value": "5000", "isPopular": false },
                     { "order": 4, "value": "10000", "isPopular": false },
@@ -1253,6 +1399,72 @@ SILVER_DEFAULT_JSON='{
             "messagePrefix": "You just sold",
             "messageSuffix": "of 999 Silver"
         },
+,
+        "productListing": {
+            "title": "Redeem Silver",
+            "emptyStateMessage": "No products available for delivery at this time",
+            "lockBanner": {
+                "message": "A 72 hour waiting period applies before newly purchased Gold/Silver can be redeemed for physical delivery"
+            },
+            "errors": {
+                "pincodeRequired": "Please enter a pincode",
+                "pincodeInvalid": "Please enter a valid 6-digit pincode",
+                "pincodeNotServiceable": "Sorry, delivery is not available in this area",
+                "pincodeCheckFailed": "Failed to check pincode. Please try again."
+            },
+            "pgInfoIcon": "/assets/physical-gold/gold-coins.png"
+        },
+        "productDetails": {
+            "title": "Redeem Silver",
+            "deliveryEstimate": "7-10 days",
+            "outOfStockText": "Out of Stock",
+            "buyNowText": "Buy Now",
+            "enterPincodeText": "Enter Pincode",
+            "safeSecureText": "100% safe and secure",
+            "trustBadges": [
+                { "badgeId": "refinery", "label": "Silver refinery", "logoSrc": "/assets/physical-gold/gold-refinery-logo.png", "logoAlt": "Silver Refinery Logo", "logoWidth": "73px", "logoHeight": "39px" },
+                { "badgeId": "hallmark", "label": "999 Hallmark", "logoSrc": "/assets/physical-gold/bis-hallmark-logo.png", "logoAlt": "BIS Hallmark", "logoWidth": "14px", "logoHeight": "11px" },
+                { "badgeId": "insurance", "label": "Insured by", "logoSrc": "/assets/physical-gold/insurance-logo.png", "logoAlt": "Insurance Logo", "logoWidth": "25px", "logoHeight": "21px" }
+            ],
+            "errors": {
+                "pincodeRequired": "Please enter a pincode to proceed",
+                "pincodeInvalid": "Please enter a valid 6-digit pincode",
+                "pincodeNotServiceable": "Sorry, delivery is not available in this area",
+                "pincodeCheckFailed": "Failed to check pincode. Please try again."
+            }
+        },
+        "redeemOrderSummary": {
+            "title": "Redeem Silver",
+            "submitButtonText": "Proceed",
+            "secondaryLinkText": "Go back",
+            "helpAriaLabel": "Get help with redeem order summary",
+            "insufficientBalanceMessage": "You cannot redeem more than your silver savings",
+            "safeAndSecureLabel": "100% safe and secure"
+        },
+        "redeemSelectAddress": {
+            "title": "Redeem Silver",
+            "submitButtonText": "Proceed",
+            "saveButtonText": "Save Address",
+            "secondaryLinkText": "Go back",
+            "helpAriaLabel": "Get help with address selection",
+            "footerNote": "*Your order will be delivered to this address",
+            "securityBadge": "100% safe and secure"
+        },
+        "redeemThankYou": {
+            "title": "Redeem Silver",
+            "heading": "Order Confirmed!",
+            "submitButtonText": "Proceed",
+            "proceedButtonText": "Proceed",
+            "secondaryLinkText": "Go to Dashboard",
+            "helpAriaLabel": "Get help",
+            "orderInitiatedMessage": "Your order has been initiated and will be delivered soon.",
+            "orderBannerMessage": "Don't forget, you can always reinvest with us!",
+            "orderConfirmationTitle": "Order Placed, thank You!",
+            "orderConfirmationFooter": "Order placed, thank you!",
+            "etaPrefix": "Arriving by",
+            "deliveryAddressLabel": "Delivery Address",
+            "successIllustration": null
+        },
         "paymentFailure": {
             "title": "Payment Failed",
             "submitButtonText": "Try Again",
@@ -1387,6 +1599,86 @@ SILVER_DEFAULT_JSON='{
                 "enabled": true,
                 "content": [
                     { "order": 1, "value": "500", "isPopular": false },
+,
+        "collectGiftDetails": {
+            "title": "Gift Silver",
+            "submitButtonText": "Proceed",
+            "helpAriaLabel": "Get help with gifting silver",
+            "holdingsLabel": "Your Holdings",
+            "inputSectionTitle": "How much silver do you want to gift",
+            "minAmount": 10,
+            "maxAmount": 100000,
+            "minWeight": 0.01,
+            "maxWeight": 100,
+            "amountChips": {
+                "enabled": true,
+                "content": [
+                    { "order": 1, "value": "1000" },
+                    { "order": 2, "value": "2000" },
+                    { "order": 3, "value": "5000", "isPopular": true },
+                    { "order": 4, "value": "10000" },
+                    { "order": 5, "value": "20000" }
+                ]
+            },
+            "weightChips": {
+                "enabled": true,
+                "content": [
+                    { "order": 1, "value": "0.5" },
+                    { "order": 2, "value": "1", "isPopular": true },
+                    { "order": 3, "value": "2" },
+                    { "order": 4, "value": "5" },
+                    { "order": 5, "value": "10" }
+                ]
+            }
+        },
+        "recipientDetails": {
+            "title": "Recipient Details",
+            "submitButtonText": "Proceed to Order",
+            "helpAriaLabel": "Get help with recipient details",
+            "receiverNameLabel": "Receiver's Name",
+            "receiverNamePlaceholder": "Enter receiver name",
+            "receiverMobileLabel": "Receiver's Mobile",
+            "receiverMobilePlaceholder": "Enter receiver mobile number",
+            "noteLabel": "Note",
+            "notePlaceholder": "Sending you wishes to brighten up your day!",
+            "maxNoteLength": 200,
+            "giftCardLabel": "Choose Gift card",
+            "scheduleLabel": "Schedule for later"
+        },
+        "giftTransactionSummary": {
+            "title": "Gift Summary",
+            "submitButtonText": "Proceed",
+            "helpAriaLabel": "Get help with gift summary",
+            "showHelpIcon": true,
+            "giftQuantityLabel": "Gift Quantity",
+            "purchaseAmountLabel": "Purchase Amount",
+            "gstLabel": "GST (3%)",
+            "toPayLabel": "To Pay",
+            "receiverDetailsTitle": "Receiver Details",
+            "paymentSummaryTitle": "Payment summary",
+            "infoBannerText": "Credit card payments are not allowed for digital silver purchase as per regulations",
+            "secondaryInfoText": ""
+        },
+        "giftOtpVerification": {
+            "title": "Verify OTP",
+            "submitButtonText": "Verify",
+            "helpAriaLabel": "Get help with OTP verification",
+            "otpLabel": "Enter OTP",
+            "resendText": "Resend OTP",
+            "resendCountdown": 30
+        },
+        "giftSuccess": {
+            "title": "Gift Sent",
+            "heading": "We've sent your lovely gift!",
+            "submitButtonText": "Go to Homepage",
+            "helpAriaLabel": "Get help",
+            "disclaimerText": "The end recipient must accept the gift within 5 days, the silver units will be reversed back to the sender's account",
+            "instructionsLinkText": "how to receive it",
+            "copyLabel": "Copy",
+            "shareLabel": "Share",
+            "whatsappLabel": "WhatsApp",
+            "homepageLabel": "Homepage"
+        },
                     { "order": 2, "value": "1000", "isPopular": true },
                     { "order": 3, "value": "5000", "isPopular": false },
                     { "order": 4, "value": "10000", "isPopular": false },
