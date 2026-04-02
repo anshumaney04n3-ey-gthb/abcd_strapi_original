@@ -21,25 +21,22 @@
       "enabled": true,
       "content": [
         {
+          "order": 1,
+          "cardId": "apply-loan",
           "title": "Apply for Loan",
-          "subtitle": "Quick approval and disbursal",
-          "icon": null,
-          "ctaText": "Apply Now",
-          "ctaLink": "/loans/apply"
+          "subtitle": "Quick approval and disbursal"
         },
         {
+          "order": 2,
+          "cardId": "my-loans",
           "title": "My Loans",
-          "subtitle": "View all your loans",
-          "icon": null,
-          "ctaText": "View Details",
-          "ctaLink": "/loans/my-loans"
+          "subtitle": "View all your loans"
         },
         {
+          "order": 3,
+          "cardId": "repayment",
           "title": "Repayment",
-          "subtitle": "Easy repayment options",
-          "icon": null,
-          "ctaText": "Pay Now",
-          "ctaLink": "/loans/repay"
+          "subtitle": "Easy repayment options"
         }
       ]
     },
@@ -127,18 +124,21 @@
       "content": [
         {
           "order": 1,
-          "question": "What is the minimum loan amount?",
-          "answer": "Minimum loan amount is ₹50,000."
+          "faqId": "faq-1",
+          "title": "What is the minimum loan amount?",
+          "content": "Minimum loan amount is ₹50,000."
         },
         {
           "order": 2,
-          "question": "How long does approval take?",
-          "answer": "Approval typically takes 24-48 hours."
+          "faqId": "faq-2",
+          "title": "How long does approval take?",
+          "content": "Approval typically takes 24-48 hours."
         },
         {
           "order": 3,
-          "question": "What documents are required?",
-          "answer": "ID proof, address proof, and income documents."
+          "faqId": "faq-3",
+          "title": "What documents are required?",
+          "content": "ID proof, address proof, and income documents."
         }
       ]
     },
@@ -147,17 +147,17 @@
       "content": [
         {
           "order": 1,
+          "videoId": "video-1",
           "title": "Loan Application Process",
           "thumbnail": null,
-          "videoUrl": "https://example.com/video1",
-          "duration": "3:00"
+          "videoUrl": "https://example.com/video1"
         },
         {
           "order": 2,
+          "videoId": "video-2",
           "title": "Understanding Interest Rates",
           "thumbnail": null,
-          "videoUrl": "https://example.com/video2",
-          "duration": "4:30"
+          "videoUrl": "https://example.com/video2"
         }
       ]
     },
@@ -166,37 +166,41 @@
       "content": [
         {
           "order": 1,
-          "bannerId": "banner-1",
+          "backgroundColor": "#4CAF50",
           "title": "Special Offer",
-          "description": "Get 50% off on processing fee",
-          "ctaText": "Apply Now",
-          "ctaLink": "/loans/offer",
-          "backgroundColor": "#4CAF50"
+          "highlightedText": "50% off",
+          "subtitle": "Get 50% off on processing fee",
+          "ctaText": "Apply Now"
         }
       ]
     },
     "keyHighlightsConfig": {
-      "enabled": true,
-      "title": "Why Choose Us"
+      "holdingsLabel": "Your Loans",
+      "badgeText": "Active",
+      "title": "Why Choose Us",
+      "ctaText": "View Details"
     },
     "transactionsEmptyStateConfig": {
-      "enabled": true,
-      "title": "No Active Loans",
-      "subtitle": "Your loan details will appear here once you apply"
+      "ctaText": "Apply Now",
+      "bannerHighlight": "No Active Loans",
+      "bannerDescription": "Your loan details will appear here once you apply"
     },
     "referralBannerAssets": {
-      "enabled": true,
-      "title": "Refer a Friend",
-      "subtitle": "Earn ₹500 for every successful referral"
+      "treasureChestPath": "/assets/images/referral-treasure.png",
+      "goldCoinPath": "/assets/images/referral-coin.png",
+      "chevronPath": "/assets/images/chevron-right.png"
     },
     "userSidebarAssets": {
-      "enabled": true,
-      "profilePlaceholder": "/assets/images/profile-placeholder.png",
-      "editIcon": "/assets/images/edit-icon.png"
+      "iconProfilePath": "/assets/icons/profile.svg",
+      "iconInfoPath": "/assets/icons/info.svg",
+      "iconLogoutPath": "/assets/icons/logout.svg",
+      "logoFooterPath": "/assets/logo-footer.png",
+      "logoutIllustrationPath": "/assets/images/logout-illustration.png",
+      "otpIllustrationPath": "/assets/images/otp-illustration.png"
     },
     "globalDisclaimer": {
-      "enabled": true,
-      "text": "Loan offers are subject to eligibility and lender policies. Interest rates may vary."
+      "anchorText": "Disclaimer",
+      "content": "Loan offers are subject to eligibility and lender policies. Interest rates may vary."
     }
   }
 }
