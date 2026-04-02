@@ -1,125 +1,51 @@
 {
   "data": {
     "subProduct": "motor",
-    "partner": "Vodafone",
-    "sectionTitleComparison": "Compare Insurance Plans",
-    "sectionSubtitleVideos": "Expert Guidance Videos",
-    "sectionTitleReferral": "Refer & Save",
-    "livePriceDisclaimer": "Premium rates updated regularly",
-    "footerReferenceHeading": "Powered by",
-    "footerReferenceName": "ABCD Insurance",
-    "footerReferenceCertification": "Trusted by millions of customers",
-    "heroImagePath": "/assets/images/insurance-hero-bg.png",
-    "patternImagePath": "/assets/images/insurance-pattern.png",
-    "maskImagePath": "/assets/images/insurance-mask.png",
-    "transactionsEmptyImagePath": "/assets/images/insurance-no-transactions.png",
-    "mmtcLogoPath": "/assets/images/insurance-mmtc-logo.png",
-    "footerBarsImagePath": "/assets/images/insurance-footer-pattern.png",
-    "headerLogoAlt": "ABCD Logo",
-    "footerLogoAlt": "ABCD Logo",
     "aiPoweredBadgeJourneyEnabled": true,
     "actionCards": {
       "enabled": true,
       "content": [
         {
-          "title": "Buy Insurance",
-          "subtitle": "Get comprehensive coverage",
-          "icon": null,
-          "ctaText": "Explore Plans",
-          "ctaLink": "/insurance/buy"
+          "order": 1,
+          "id": "car",
+          "title": "Car insurance",
+          "subtitle": "Starts at just ₹1,999",
+          "image": "${LANDING_ASSETS}/dashboard/insuranceCar.svg",
+          "type": "car"
         },
         {
-          "title": "Renew Policy",
-          "subtitle": "Quick and easy renewal",
-          "icon": null,
-          "ctaText": "Renew Now",
-          "ctaLink": "/insurance/renew"
-        },
-        {
-          "title": "Claims",
-          "subtitle": "Track your claims",
-          "icon": null,
-          "ctaText": "File Claim",
-          "ctaLink": "/insurance/claims"
+          "order": 2,
+          "id": "bike",
+          "title": "Bike insurance",
+          "subtitle": "Starts at just ₹999",
+          "image": "${LANDING_ASSETS}/dashboard/insuranceBike.svg",
+          "type": "bike"
         }
       ]
     },
-    "comparisonColumns": {
+    "exploreItems": {
       "enabled": true,
       "content": [
         {
           "order": 1,
-          "columnId": "col-1",
-          "title": "Basic Plan",
-          "isHighlighted": false
+          "id": "renew-policy",
+          "title": "Renew instantly - Upload your policy",
+          "icon": "${LANDING_ASSETS}/mobile-nav/icon-motor-insurance.png",
+          "isExternal": true
         },
         {
           "order": 2,
-          "columnId": "col-2",
-          "title": "Standard Plan",
-          "isHighlighted": true
+          "id": "policies",
+          "title": "My Policies",
+          "icon": "${LANDING_ASSETS}/mobile-nav/icon-pocket-insurance.png",
+          "isExternal": true
         },
         {
           "order": 3,
-          "columnId": "col-3",
-          "title": "Premium Plan",
-          "isHighlighted": false
-        }
-      ]
-    },
-    "comparisonRows": {
-      "enabled": true,
-      "content": [
-        {
-          "order": 1,
-          "rowId": "row-1",
-          "label": "Coverage",
-          "values": [
-            "₹5 Lakh",
-            "₹10 Lakh",
-            "₹25 Lakh"
-          ]
-        },
-        {
-          "order": 2,
-          "rowId": "row-2",
-          "label": "Premium",
-          "values": [
-            "₹2,000",
-            "₹3,500",
-            "₹5,000"
-          ]
-        },
-        {
-          "order": 3,
-          "rowId": "row-3",
-          "label": "Cashless Garages",
-          "values": [
-            "100",
-            "500",
-            "1000"
-          ]
-        }
-      ]
-    },
-    "footerFeatures": {
-      "enabled": true,
-      "content": [
-        {
-          "text": "24/7 Customer Support",
-          "order": 1
-        },
-        {
-          "text": "Quick Claim Settlement",
-          "order": 2
-        },
-        {
-          "text": "Secure Online Payment",
-          "order": 3
-        },
-        {
-          "text": "No Hidden Charges",
-          "order": 4
+          "id": "track-insurance",
+          "title": "Track insurance, challans, & more, all in one place.",
+          "icon": "${LANDING_ASSETS}/mobile-nav/icon-vehicle-track.png",
+          "isExternal": true
         }
       ]
     },
@@ -128,97 +54,28 @@
       "content": [
         {
           "order": 1,
-          "question": "What is covered?",
-          "answer": "Comprehensive coverage for damages and theft."
+          "id": "why-motor-insurance",
+          "title": "Why Motor Insurance?",
+          "icon": "${LANDING_ASSETS}/dashboard/car-icon.svg",
+          "description": "Motor insurance is mandatory by law and protects you financially against accidents, theft, and third-party liabilities.",
+          "isExternal": false
         },
         {
           "order": 2,
-          "question": "How to file a claim?",
-          "answer": "File claim through our app or website."
+          "id": "how-it-works",
+          "title": "How Motor Insurance at ABCD works?",
+          "icon": "${LANDING_ASSETS}/dashboard/faq-car-icon.png",
+          "description": "Choose your vehicle type, compare plans, and complete your purchase online. Policy issuance is quick and support is available throughout.",
+          "isExternal": false
         },
         {
           "order": 3,
-          "question": "What is the waiting period?",
-          "answer": "30 days for most claims."
-        }
-      ]
-    },
-    "videos": {
-      "enabled": true,
-      "content": [
-        {
-          "order": 1,
-          "title": "How to Buy Insurance",
-          "thumbnail": null,
-          "videoUrl": "https://example.com/video1",
-          "duration": "2:30"
-        },
-        {
-          "order": 2,
-          "title": "Understanding Coverage",
-          "thumbnail": null,
-          "videoUrl": "https://example.com/video2",
-          "duration": "3:15"
-        }
-      ]
-    },
-    "promoBanners": {
-      "enabled": true,
-      "content": [
-        {
-          "order": 1,
-          "bannerId": "banner-1",
-          "title": "Get 10% Off",
-          "description": "On annual policies",
-          "ctaText": "Know More",
-          "ctaLink": "/offer",
-          "backgroundColor": "#FF5722"
-        }
-      ]
-    },
-    "keyHighlightsConfig": {
-      "enabled": true,
-      "title": "Key Highlights"
-    },
-    "transactionsEmptyStateConfig": {
-      "enabled": true,
-      "title": "No Transactions",
-      "subtitle": "Your insurance transactions will appear here"
-    },
-    "referralBannerAssets": {
-      "enabled": true,
-      "title": "Refer a Friend",
-      "subtitle": "Earn rewards on every referral"
-    },
-    "userSidebarAssets": {
-      "enabled": true,
-      "profilePlaceholder": "/assets/images/profile-placeholder.png",
-      "editIcon": "/assets/images/edit-icon.png"
-    },
-    "globalDisclaimer": {
-      "enabled": true,
-      "text": "Premium rates are subject to change. Please verify with the insurer."
-    },
-    "exploreItems": {
-      "enabled": true,
-      "content": [
-        {
-          "order": 1,
-          "title": "Car Insurance",
-          "icon": null,
-          "link": "/insurance/car"
-        },
-        {
-          "order": 2,
-          "title": "Bike Insurance",
-          "icon": null,
-          "link": "/insurance/bike"
-        },
-        {
-          "order": 3,
-          "title": "Travel Insurance",
-          "icon": null,
-          "link": "/insurance/travel"
+          "id": "other-questions",
+          "title": "Other questions?",
+          "icon": "",
+          "description": "",
+          "isExternal": true,
+          "externalUrl": "https://help.abcd.com/motor-insurance"
         }
       ]
     },
@@ -227,21 +84,33 @@
       "content": [
         {
           "order": 1,
-          "name": "ICICI Lombard",
-          "logoUrl": null,
-          "highlighted": true
+          "id": "icici",
+          "src": "${LANDING_ASSETS}/dashboard/icic.svg",
+          "alt": "ICICI Insurance"
         },
         {
           "order": 2,
-          "name": "HDFC ERGO",
-          "logoUrl": null,
-          "highlighted": false
+          "id": "acko",
+          "src": "${LANDING_ASSETS}/dashboard/acko.svg",
+          "alt": "Acko Insurance"
         },
         {
           "order": 3,
-          "name": "Bajaj Allianz",
-          "logoUrl": null,
-          "highlighted": false
+          "id": "digit",
+          "src": "${LANDING_ASSETS}/dashboard/digit.svg",
+          "alt": "Digit Insurance"
+        },
+        {
+          "order": 4,
+          "id": "tata",
+          "src": "${LANDING_ASSETS}/dashboard/tata.svg",
+          "alt": "Tata Insurance"
+        },
+        {
+          "order": 5,
+          "id": "bajaj",
+          "src": "${LANDING_ASSETS}/dashboard/general.svg",
+          "alt": "Bajaj Insurance"
         }
       ]
     },
@@ -250,83 +119,67 @@
       "content": [
         {
           "order": 1,
-          "title": "RBI Approved",
-          "iconUrl": null
+          "icon": "${LANDING_ASSETS}/dashboard/trust.svg",
+          "text": "Trusted by\n2K+ users"
         },
         {
           "order": 2,
-          "title": "ISO Certified",
-          "iconUrl": null
+          "icon": "${LANDING_ASSETS}/dashboard/bolt.svg",
+          "text": "Get instant policy\nin 3 mins"
         },
         {
           "order": 3,
-          "title": "10M+ Customers",
-          "iconUrl": null
+          "icon": "${LANDING_ASSETS}/dashboard/agent.svg",
+          "text": "Easy claim\nassistance"
         }
       ]
     },
     "crossSell": {
       "enabled": true,
-      "title": "Explore More",
-      "content": [
-        {
-          "order": 1,
-          "productName": "Health Insurance",
-          "ctaText": "Explore",
-          "ctaLink": "/health"
-        },
-        {
-          "order": 2,
-          "productName": "Life Insurance",
-          "ctaText": "Explore",
-          "ctaLink": "/life"
-        }
-      ]
+      "content": {
+        "title": "Checked your challans yet?",
+        "subtitle": "Stay on top of your pending challans and PUC expiry",
+        "price": "0",
+        "buttonText": "Activate now",
+        "carImageSrc": "${LANDING_ASSETS}/landing/motorAccidentLogo.png"
+      }
     },
     "keyHighlights": {
       "enabled": true,
       "content": [
         {
           "order": 1,
-          "title": "Instant Policy",
-          "description": "Get policy within minutes"
+          "vehicleType": "4W",
+          "badgeText": "Join 2K+ users trusting ABCD for Motor Insurance.",
+          "title": "Get car insurance now!",
+          "ctaText": "Apply now",
+          "heroImage": "${LANDING_ASSETS}/landing/motor/carIcon.png",
+          "highlights": [
+            {
+              "id": "car-1",
+              "text": "Unlock a special price on your car insurance"
+            }
+          ]
         },
         {
           "order": 2,
-          "title": "Claim Support",
-          "description": "Dedicated claim assistance"
-        },
-        {
-          "order": 3,
-          "title": "Best Prices",
-          "description": "Compare and save"
+          "vehicleType": "2W",
+          "badgeText": "Join 2K+ users trusting ABCD for Motor Insurance.",
+          "title": "Get bike insurance now!",
+          "ctaText": "Apply now",
+          "heroImage": "${LANDING_ASSETS}/landing/motor/bikeIcon.png",
+          "highlights": [
+            {
+              "id": "bike-1",
+              "text": "Unlock a special price on your bike insurance"
+            }
+          ]
         }
       ]
     },
     "navigation": {
       "enabled": true,
-      "items": [
-        {
-          "label": "Home",
-          "link": "/insurance",
-          "icon": null
-        },
-        {
-          "label": "Buy",
-          "link": "/insurance/buy",
-          "icon": null
-        },
-        {
-          "label": "Renew",
-          "link": "/insurance/renew",
-          "icon": null
-        },
-        {
-          "label": "Claims",
-          "link": "/insurance/claims",
-          "icon": null
-        }
-      ]
+      "content": []
     }
   }
 }
