@@ -20,13 +20,13 @@
       "imageAuthenticated": null,
       "imageAlt": "Gold Loan Hero",
       "partnerLogos": [
-        { "id": "1", "src": null, "alt": "Muthoot Finance" },
-        { "id": "2", "src": null, "alt": "IIFL Finance" }
+        { "src": null, "alt": "Muthoot Finance" },
+        { "src": null, "alt": "IIFL Finance" }
       ],
       "partnerLogosAuthenticated": [],
       "productHighlighters": [
-        { "id": "1", "text": "Instant disbursal", "showIcon": true, "order": 1 },
-        { "id": "2", "text": "100%", "showIcon": false, "order": 2 }
+        { "text": "Instant disbursal", "showIcon": true, "order": 1 },
+        { "text": "100%", "showIcon": false, "order": 2 }
       ],
       "backgroundGradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
       "showSeparator": true
@@ -54,25 +54,25 @@
       "title": "Trusted Lending Partners",
       "subtitle": "Quick approvals. Secure gold loans made simple.",
       "columns": [
-        { "id": "iifl", "name": "IIFL Finance", "logoUrl": null, "highlighted": true },
-        { "id": "muthoot", "name": "Muthoot Fincorp", "logoUrl": null, "highlighted": false },
-        { "id": "rupeek", "name": "Rupeek", "logoUrl": null, "highlighted": false }
+        { "name": "IIFL Finance", "logoUrl": null, "highlighted": true },
+        { "name": "Muthoot Fincorp", "logoUrl": null, "highlighted": false },
+        { "name": "Rupeek", "logoUrl": null, "highlighted": false }
       ],
       "rows": [
-        { "id": "min-loan", "label": "Minimum Loan Amount", "values": ["₹3,000 onwards", "₹5,000 onwards", "₹10,000 onwards"] },
-        { "id": "max-loan", "label": "Maximum Loan Amount", "values": ["₹50 Lakh", "₹1 Crore", "₹75 Lakh"] },
-        { "id": "roi", "label": "Starting ROI", "values": ["0.99% p.m", "0.97% p.m", "0.79% p.m"] },
-        { "id": "processing", "label": "Processing Fee", "values": ["1%", "0.5%", "Nil"] }
+        { "label": "Minimum Loan Amount", "values": ["₹3,000 onwards", "₹5,000 onwards", "₹10,000 onwards"] },
+        { "label": "Maximum Loan Amount", "values": ["₹50 Lakh", "₹1 Crore", "₹75 Lakh"] },
+        { "label": "Starting ROI", "values": ["0.99% p.m", "0.97% p.m", "0.79% p.m"] },
+        { "label": "Processing Fee", "values": ["1%", "0.5%", "Nil"] }
       ],
       "ctaText": "Apply Now"
     },
     "eligibility": {
       "title": "Gold Loan Eligibility",
       "items": [
-        { "id": "nationality", "label": "Nationality", "value": "Must be an Indian Citizen", "alternateValueBackground": false },
-        { "id": "age", "label": "Age", "value": "21-65 years", "alternateValueBackground": true },
-        { "id": "gold-purity", "label": "Gold Purity", "value": "18 karats and above", "alternateValueBackground": false },
-        { "id": "gold-type", "label": "Gold Type", "value": "Jewellery, coins, bars", "alternateValueBackground": true }
+        { "label": "Nationality", "value": "Must be an Indian Citizen", "alternateValueBackground": false },
+        { "label": "Age", "value": "21-65 years", "alternateValueBackground": true },
+        { "label": "Gold Purity", "value": "18 karats and above", "alternateValueBackground": false },
+        { "label": "Gold Type", "value": "Jewellery, coins, bars", "alternateValueBackground": true }
       ]
     },
     "process": {
@@ -82,7 +82,6 @@
       "decorativeImageSrc": null,
       "tabs": [
         {
-          "id": "apply",
           "label": "Apply Online",
           "steps": [
             { "number": 1, "text": "Enter your details on our website or app" },
@@ -93,7 +92,6 @@
           "ctaText": "Apply Now"
         },
         {
-          "id": "verify",
           "label": "Verification",
           "steps": [
             { "number": 1, "text": "Our team verifies your documents" },
@@ -104,7 +102,6 @@
           "ctaText": null
         },
         {
-          "id": "disburse",
           "label": "Disbursal",
           "steps": [
             { "number": 1, "text": "Loan approved and disbursed" },
@@ -119,10 +116,10 @@
     },
     "securityFeatures": {
       "items": [
-        { "id": "1", "title": "High Loan to Value", "description": "Up to 85% LTV ratio", "iconUrl": null },
-        { "id": "2", "title": "Quick Disbursal", "description": "24-hour disbursal on approved cases", "iconUrl": null },
-        { "id": "3", "title": "Secure Storage", "description": "Safe vault storage for your gold", "iconUrl": null },
-        { "id": "4", "title": "No Credit Score Required", "description": "Gold-backed loan with minimal checks", "iconUrl": null }
+        { "title": "High Loan to Value", "description": "Up to 85% LTV ratio", "iconUrl": null },
+        { "title": "Quick Disbursal", "description": "24-hour disbursal on approved cases", "iconUrl": null },
+        { "title": "Secure Storage", "description": "Safe vault storage for your gold", "iconUrl": null },
+        { "title": "No Credit Score Required", "description": "Gold-backed loan with minimal checks", "iconUrl": null }
       ],
       "desktopBackgroundUrl": null,
       "mobileBackgroundUrl": null
@@ -131,32 +128,29 @@
       "title": "Frequently Asked Questions",
       "tabs": [
         {
-          "id": "general",
           "label": "General",
           "defaultOpenIds": ["1", "2"],
           "items": [
-            { "id": "1", "question": "What is the minimum gold purity required?", "answer": "We accept gold jewelry and ornaments with minimum 18 karats purity." },
-            { "id": "2", "question": "How long does the loan approval take?", "answer": "Once documents are verified and gold is valued, loan is disbursed within 24 hours." },
-            { "id": "3", "question": "What documents are required?", "answer": "You need ID proof (Aadhaar/Voter ID/Passport), address proof, and gold ornaments." },
-            { "id": "4", "question": "Is my gold safe?", "answer": "Yes, your gold is stored in secure bank-grade vaults with insurance coverage." }
+            { "question": "What is the minimum gold purity required?", "answer": "We accept gold jewelry and ornaments with minimum 18 karats purity." },
+            { "question": "How long does the loan approval take?", "answer": "Once documents are verified and gold is valued, loan is disbursed within 24 hours." },
+            { "question": "What documents are required?", "answer": "You need ID proof (Aadhaar/Voter ID/Passport), address proof, and gold ornaments." },
+            { "question": "Is my gold safe?", "answer": "Yes, your gold is stored in secure bank-grade vaults with insurance coverage." }
           ]
         },
         {
-          "id": "eligibility",
           "label": "Eligibility",
           "defaultOpenIds": [],
           "items": [
-            { "id": "5", "question": "Who is eligible for a gold loan?", "answer": "Indian citizens aged 21-65 years with gold ornaments of 18 karats and above." },
-            { "id": "6", "question": "Can I apply if I have no credit score?", "answer": "Yes, gold loans are primarily secured against your gold, not credit score." }
+            { "question": "Who is eligible for a gold loan?", "answer": "Indian citizens aged 21-65 years with gold ornaments of 18 karats and above." },
+            { "question": "Can I apply if I have no credit score?", "answer": "Yes, gold loans are primarily secured against your gold, not credit score." }
           ]
         },
         {
-          "id": "repayment",
           "label": "Repayment",
           "defaultOpenIds": [],
           "items": [
-            { "id": "7", "question": "What are the repayment options?", "answer": "You can repay through online transfer, cheque, or cash at our branches." },
-            { "id": "8", "question": "Can I prepay my loan?", "answer": "Yes, you can prepay with minimal or no foreclosure charges." }
+            { "question": "What are the repayment options?", "answer": "You can repay through online transfer, cheque, or cash at our branches." },
+            { "question": "Can I prepay my loan?", "answer": "Yes, you can prepay with minimal or no foreclosure charges." }
           ]
         }
       ],
@@ -174,10 +168,10 @@
       "sideImage": null,
       "sideImageAlt": "ABCD Footer",
       "features": [
-        { "id": "1", "text": "Get Instant Offer" },
-        { "id": "2", "text": "24/7 Customer Support" },
-        { "id": "3", "text": "Secure & Safe" },
-        { "id": "4", "text": "Best Interest Rates" }
+        { "text": "Get Instant Offer" },
+        { "text": "24/7 Customer Support" },
+        { "text": "Secure & Safe" },
+        { "text": "Best Interest Rates" }
       ]
     },
     "appPromo": {

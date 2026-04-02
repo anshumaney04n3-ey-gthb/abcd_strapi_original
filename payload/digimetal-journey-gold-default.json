@@ -89,7 +89,6 @@
         "helpAriaLabel": "Get help with redemption options",
         "paymentMethods": [
           {
-            "id": "cash-instantly",
             "methodId": "cash-instantly",
             "methodType": "cash",
             "iconSrc": "/assets/sell-flow/cashInHand.svg",
@@ -102,7 +101,6 @@
             ]
           },
           {
-            "id": "gold-in-hand",
             "methodId": "gold-in-hand",
             "methodType": "gold-in-hand",
             "iconSrc": "/assets/sell-flow/GoldInHand.png",
@@ -293,7 +291,6 @@
         "helpAriaLabel": "Get help with gifting options",
         "paymentMethods": [
           {
-            "id": "gold-in-hand",
             "methodId": "gold-in-hand",
             "methodType": "gold-in-hand",
             "iconSrc": "/assets/sell-flow/GoldInHand.png",

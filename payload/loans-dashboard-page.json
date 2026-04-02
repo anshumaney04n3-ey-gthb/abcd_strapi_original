@@ -21,7 +21,6 @@
       "enabled": true,
       "content": [
         {
-          "id": "apply-loan",
           "title": "Apply for Loan",
           "subtitle": "Quick approval and disbursal",
           "icon": null,
@@ -29,7 +28,6 @@
           "ctaLink": "/loans/apply"
         },
         {
-          "id": "my-loans",
           "title": "My Loans",
           "subtitle": "View all your loans",
           "icon": null,
@@ -37,7 +35,6 @@
           "ctaLink": "/loans/my-loans"
         },
         {
-          "id": "repayment",
           "title": "Repayment",
           "subtitle": "Easy repayment options",
           "icon": null,

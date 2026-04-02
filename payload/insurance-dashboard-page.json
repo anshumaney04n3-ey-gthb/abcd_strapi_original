@@ -22,7 +22,6 @@
       "enabled": true,
       "content": [
         {
-          "id": "buy-insurance",
           "title": "Buy Insurance",
           "subtitle": "Get comprehensive coverage",
           "icon": null,
@@ -30,7 +29,6 @@
           "ctaLink": "/insurance/buy"
         },
         {
-          "id": "renew-policy",
           "title": "Renew Policy",
           "subtitle": "Quick and easy renewal",
           "icon": null,
@@ -38,7 +36,6 @@
           "ctaLink": "/insurance/renew"
         },
         {
-          "id": "claims",
           "title": "Claims",
           "subtitle": "Track your claims",
           "icon": null,
