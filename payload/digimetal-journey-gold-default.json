@@ -19,21 +19,21 @@
         "amountChips": {
           "enabled": true,
           "content": [
-            { "value": "1000", "label": "₹1,000", "isPopular": false, "order": 1 },
-            { "value": "2000", "label": "₹2,000", "isPopular": false, "order": 2 },
-            { "value": "5000", "label": "₹5,000", "isPopular": true, "order": 3 },
-            { "value": "10000", "label": "₹10,000", "isPopular": false, "order": 4 },
-            { "value": "20000", "label": "₹20,000", "isPopular": false, "order": 5 }
+            { "value": "1000", "isPopular": false, "order": 1 },
+            { "value": "2000", "isPopular": false, "order": 2 },
+            { "value": "5000", "isPopular": true, "order": 3 },
+            { "value": "10000", "isPopular": false, "order": 4 },
+            { "value": "20000", "isPopular": false, "order": 5 }
           ]
         },
         "weightChips": {
           "enabled": true,
           "content": [
-            { "value": "1", "label": "1g", "isPopular": false, "order": 1 },
-            { "value": "2", "label": "2g", "isPopular": false, "order": 2 },
-            { "value": "5", "label": "5g", "isPopular": true, "order": 3 },
-            { "value": "10", "label": "10g", "isPopular": false, "order": 4 },
-            { "value": "20", "label": "20g", "isPopular": false, "order": 5 }
+            { "value": "1", "isPopular": false, "order": 1 },
+            { "value": "2", "isPopular": false, "order": 2 },
+            { "value": "5", "isPopular": true, "order": 3 },
+            { "value": "10", "isPopular": false, "order": 4 },
+            { "value": "20", "isPopular": false, "order": 5 }
           ]
         }
       },
@@ -124,34 +124,28 @@
         "amountChips": {
           "enabled": true,
           "content": [
-            { "value": "1000", "label": "₹1,000", "isPopular": false, "order": 1 },
-            { "value": "2000", "label": "₹2,000", "isPopular": false, "order": 2 },
-            { "value": "5000", "label": "₹5,000", "isPopular": true, "order": 3 },
-            { "value": "10000", "label": "₹10,000", "isPopular": false, "order": 4 },
-            { "value": "20000", "label": "₹20,000", "isPopular": false, "order": 5 }
+            { "value": "1000", "isPopular": false, "order": 1 },
+            { "value": "2000", "isPopular": false, "order": 2 },
+            { "value": "5000", "isPopular": true, "order": 3 },
+            { "value": "10000", "isPopular": false, "order": 4 },
+            { "value": "20000", "isPopular": false, "order": 5 }
           ]
         },
         "weightChips": {
           "enabled": true,
           "content": [
-            { "value": "1", "label": "1g", "isPopular": false, "order": 1 },
-            { "value": "2", "label": "2g", "isPopular": false, "order": 2 },
-            { "value": "5", "label": "5g", "isPopular": true, "order": 3 },
-            { "value": "10", "label": "10g", "isPopular": false, "order": 4 },
-            { "value": "20", "label": "20g", "isPopular": false, "order": 5 }
+            { "value": "1", "isPopular": false, "order": 1 },
+            { "value": "2", "isPopular": false, "order": 2 },
+            { "value": "5", "isPopular": true, "order": 3 },
+            { "value": "10", "isPopular": false, "order": 4 },
+            { "value": "20", "isPopular": false, "order": 5 }
           ]
         },
         "validationConfig": {
           "minAmount": 10,
           "maxAmount": 500000,
           "minWeight": 0.01,
-          "maxWeight": 50,
-          "errorMessages": {
-            "amountMin": "Minimum sell amount is ₹10",
-            "amountMax": "Maximum sell amount is ₹5,00,000",
-            "weightMin": "Minimum weight is 0.01g",
-            "weightMax": "Maximum weight is 50g"
-          }
+          "maxWeight": 50
         }
       },
       "productListing": {
@@ -313,21 +307,21 @@
         "amountChips": {
           "enabled": true,
           "content": [
-            { "value": "1000", "label": "₹1,000", "isPopular": false, "order": 1 },
-            { "value": "2000", "label": "₹2,000", "isPopular": false, "order": 2 },
-            { "value": "5000", "label": "₹5,000", "isPopular": true, "order": 3 },
-            { "value": "10000", "label": "₹10,000", "isPopular": false, "order": 4 },
-            { "value": "20000", "label": "₹20,000", "isPopular": false, "order": 5 }
+            { "value": "1000", "isPopular": false, "order": 1 },
+            { "value": "2000", "isPopular": false, "order": 2 },
+            { "value": "5000", "isPopular": true, "order": 3 },
+            { "value": "10000", "isPopular": false, "order": 4 },
+            { "value": "20000", "isPopular": false, "order": 5 }
           ]
         },
         "weightChips": {
           "enabled": true,
           "content": [
-            { "value": "0.5", "label": "0.5g", "isPopular": false, "order": 1 },
-            { "value": "1", "label": "1g", "isPopular": true, "order": 2 },
-            { "value": "2", "label": "2g", "isPopular": false, "order": 3 },
-            { "value": "5", "label": "5g", "isPopular": false, "order": 4 },
-            { "value": "10", "label": "10g", "isPopular": false, "order": 5 }
+            { "value": "0.5", "isPopular": false, "order": 1 },
+            { "value": "1", "isPopular": true, "order": 2 },
+            { "value": "2", "isPopular": false, "order": 3 },
+            { "value": "5", "isPopular": false, "order": 4 },
+            { "value": "10", "isPopular": false, "order": 5 }
           ]
         }
       },
@@ -346,21 +340,21 @@
         "amountChips": {
           "enabled": true,
           "content": [
-            { "value": "1000", "label": "₹1,000", "isPopular": false, "order": 1 },
-            { "value": "2000", "label": "₹2,000", "isPopular": false, "order": 2 },
-            { "value": "5000", "label": "₹5,000", "isPopular": true, "order": 3 },
-            { "value": "10000", "label": "₹10,000", "isPopular": false, "order": 4 },
-            { "value": "20000", "label": "₹20,000", "isPopular": false, "order": 5 }
+            { "value": "1000", "isPopular": false, "order": 1 },
+            { "value": "2000", "isPopular": false, "order": 2 },
+            { "value": "5000", "isPopular": true, "order": 3 },
+            { "value": "10000", "isPopular": false, "order": 4 },
+            { "value": "20000", "isPopular": false, "order": 5 }
           ]
         },
         "weightChips": {
           "enabled": true,
           "content": [
-            { "value": "1", "label": "1g", "isPopular": false, "order": 1 },
-            { "value": "2", "label": "2g", "isPopular": false, "order": 2 },
-            { "value": "5", "label": "5g", "isPopular": true, "order": 3 },
-            { "value": "10", "label": "10g", "isPopular": false, "order": 4 },
-            { "value": "20", "label": "20g", "isPopular": false, "order": 5 }
+            { "value": "1", "isPopular": false, "order": 1 },
+            { "value": "2", "isPopular": false, "order": 2 },
+            { "value": "5", "isPopular": true, "order": 3 },
+            { "value": "10", "isPopular": false, "order": 4 },
+            { "value": "20", "isPopular": false, "order": 5 }
           ]
         }
       },
