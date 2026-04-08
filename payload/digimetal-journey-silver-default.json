@@ -64,7 +64,6 @@
       "thankYou": {
         "title": "Silver Purchased!",
         "submitButtonText": "Go to Dashboard",
-        "secondaryLinkText": "Buy More Silver",
         "helpAriaLabel": "Get help with purchase confirmation",
         "heading": "Thank You!",
         "messagePrefix": "Your silver purchase was successful.",
@@ -76,7 +75,6 @@
         "heading": "Uh-Oh!",
         "description": "We couldn't process your payment. Please try again.",
         "submitButtonText": "Try Again",
-        "secondaryLinkText": "Go to Dashboard",
         "helpAriaLabel": "Get help with payment failure"
       }
     },
@@ -266,7 +264,6 @@
       "thankYouSell": {
         "title": "Silver Sold!",
         "submitButtonText": "Go to Dashboard",
-        "secondaryLinkText": "Sell More Silver",
         "helpAriaLabel": "Get help with sale confirmation",
         "heading": "Thank You!",
         "messagePrefix": "Your silver has been sold successfully.",
@@ -278,7 +275,6 @@
         "heading": "Uh-Oh!",
         "description": "We couldn't process your payment. Please try again.",
         "submitButtonText": "Try Again",
-        "secondaryLinkText": "Go to Dashboard",
         "helpAriaLabel": "Get help with payment failure"
       }
     },
@@ -471,7 +467,6 @@
         "heading": "Uh-Oh!",
         "description": "We couldn't process your payment. Please try again.",
         "submitButtonText": "Try Again",
-        "secondaryLinkText": "Go to Dashboard",
         "helpAriaLabel": "Get help with payment failure"
       }
     },

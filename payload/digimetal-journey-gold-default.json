@@ -64,7 +64,6 @@
       "thankYou": {
         "title": "Gold Purchased!",
         "submitButtonText": "Go to Dashboard",
-        "secondaryLinkText": "Buy More Gold",
         "helpAriaLabel": "Get help with purchase confirmation",
         "heading": "Thank You!",
         "messagePrefix": "Your gold purchase was successful.",
@@ -76,7 +75,6 @@
         "heading": "Uh-Oh!",
         "description": "We couldn't process your payment. Please try again.",
         "submitButtonText": "Try Again",
-        "secondaryLinkText": "Go to Dashboard",
         "helpAriaLabel": "Get help with payment failure"
       }
     },
@@ -260,7 +258,6 @@
       "thankYouSell": {
         "title": "Gold Sold!",
         "submitButtonText": "Go to Dashboard",
-        "secondaryLinkText": "Sell More Gold",
         "helpAriaLabel": "Get help with sale confirmation",
         "heading": "Thank You!",
         "messagePrefix": "Your gold has been sold successfully.",
@@ -272,7 +269,6 @@
         "heading": "Uh-Oh!",
         "description": "We couldn't process your payment. Please try again.",
         "submitButtonText": "Try Again",
-        "secondaryLinkText": "Go to Dashboard",
         "helpAriaLabel": "Get help with payment failure"
       }
     },
@@ -465,7 +461,6 @@
         "heading": "Uh-Oh!",
         "description": "We couldn't process your payment. Please try again.",
         "submitButtonText": "Try Again",
-        "secondaryLinkText": "Go to Dashboard",
         "helpAriaLabel": "Get help with payment failure"
       }
     },
